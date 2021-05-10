@@ -1,0 +1,11 @@
+{
+  "allOf": [
+    {
+      "$ref": "./items/file.json"
+    },
+    {
+      "$id": "locationPhoto",
+      "title": "The photo of domain, location, surface or place"
+    }
+  ]
+}

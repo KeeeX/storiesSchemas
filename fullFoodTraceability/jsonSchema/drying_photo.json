@@ -1,0 +1,11 @@
+{
+  "allOf": [
+    {
+      "$ref": "./items/file.json"
+    },
+    {
+      "$id": "dryingPhoto",
+      "title": "The photo of the drying process"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "lot",
+  "type": "object",
+  "title": "The lot",
+  "required": [
+    "reference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "type_production": {
+      "$id": "#/properties/type_production",
+      "type": "string",
+      "title": "The type of production",
+      "examples": [
+        "Viticulteur",
+        "Ostréiculteur",
+        "Fromage",
+        "Volaille",
+        "Porc",
+        "Bovins",
+        "Épicerie",
+        "Légumes frais",
+        "Légumes secs"
+      ]
+    },
+    "date_dluo": {
+      "$id": "#/properties/date_dluo",
+      "type": "string"
+    },
+    "date_entree_stock": {
+      "$id": "#/properties/date_entree_stock",
+      "type": "string"
+    },
+    "numero_document_entree": {
+      "$id": "#/properties/numero_document_entree",
+      "type": "string"
+    },
+    "serie": {
+      "$id": "#/properties/serie",
+      "type": "string"
+    },
+    "type_entree": {
+      "$id": "#/properties/type_entree",
+      "type": "string"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}

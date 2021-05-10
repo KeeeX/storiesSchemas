@@ -1,0 +1,11 @@
+{
+  "allOf": [
+    {
+      "$ref": "./items/file.json"
+    },
+    {
+      "$id": "slaughterCertificate",
+      "title": "The official certification of slaughter equipment"
+    }
+  ]
+}

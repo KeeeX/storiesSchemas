@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "product",
+  "type": "object",
+  "title": "The product",
+  "required": [
+    "reference",
+    "famille_produit"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "famille_produit": {
+      "$id": "#/properties/famille_produit",
+      "type": "string",
+      "title": "The type of product",
+      "examples": [
+        "Viticulteur",
+        "Ostréiculteur",
+        "Fromage",
+        "Volaille",
+        "Porc",
+        "Bovins",
+        "Épicerie",
+        "Légumes frais",
+        "Légumes secs"
+      ]
+    },
+    "date_creation_produit": {
+      "$id": "#/properties/date_creation_produit",
+      "type": "string"
+    },
+    "exploitation_principale": {
+      "$id": "#/properties/exploitation_principale",
+      "type": "string"
+    },
+    "nom_produit": {
+      "$id": "#/properties/nom_produit",
+      "type": "string",
+      "description": "The product name"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}
