@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "//stories/booking",
+  "$id": "xibov-soter-pufys-lytiv-zycez-goler-tipeg-nuzul-balyl-retec-zodem-zekul-daset-vumyd-fityk-ticed-dyxax",
   "type": "object",
   "title": "The booking data",
   "required": [
@@ -17,3 +17,19 @@
     }
   }
 }
+
+/*
+keeex self xibov-soter-pufys-lytiv-zycez-goler-tipeg-nuzul-balyl-retec-zodem-zekul-daset-vumyd-fityk-ticed-dyxax , {main} xeeek
+keeex self 2dercqxdBJLKVYPyaL7Y2gYM341gQaf2v9o1tK9 , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "booking.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Mon, 10 May 2021 13:40:36 GMT" xeeek
+keeex prop "kx.pattern", "%f-keeexed-lh-%YYYY-%MM-%DD-$1-$2" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "GxlHhsLvpCsOXWFF:JrOyCjhoQRxecWWMSVkpXOIfhBROnVIf2dac0QLcSdKPUWU9QwRjQ3BRoN:NCSk5sfzpu4=" , {bitcoin} xeeek
+keeex prop "kx.folder", "jsonSchema" xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+
+*/
