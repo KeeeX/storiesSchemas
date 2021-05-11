@@ -1,0 +1,137 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "KeeeX Timestamp server",
+    "description": "KeeeX Timestamp Server\n======================\n\nOverview\n--------\nProvide RFC3161 timestamp certificates.\nThe service requires authorization in the form of an API key.\n",
+    "version": "1.0.15"
+  },
+  "components": {
+    "securitySchemes": {
+      "headerAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "Authorization"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://timestamp.keeex.net",
+      "description": "KeeeX Production TS server"
+    },
+    {
+      "url": "http://localhost:3000",
+      "description": "Local dev server"
+    }
+  ],
+  "paths": {
+    "/api/v1/timestamp": {
+      "post": {
+        "summary": "Request a timestamp",
+        "description": "Request a timestamp from the server.\n",
+        "security": [
+          {
+            "headerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "hex"
+                ],
+                "properties": {
+                  "hex": {
+                    "type": "string",
+                    "description": "Hexadecimal representation of the sha256 hash of the data. One of \"hex\" or \"idx\" must be provided."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The TSR file",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/timestamp": {
+      "post": {
+        "summary": "Request a timestamp",
+        "description": "Request a timestamp from the server.\n",
+        "deprecated": true,
+        "security": [
+          {
+            "headerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "hex"
+                ],
+                "properties": {
+                  "hex": {
+                    "type": "string",
+                    "description": "Hexadecimal representation of the sha256 hash of the data. One of \"hex\" or \"idx\" must be provided."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The TSR file",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tags": []
+}
+/*
+keeex self xomid-rigyh-cumif-zisyg-buhyg-nupit-fovag-kyvyg-lupom-rotyg-huzyn-tenys-malip-tadal-cefeg-mapum-vuxux , {main} xeeek
+keeex self 2MfeCvScYgJJGtmenGhbnEcKkCuPPRmoVZmo43i , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "timestamp.keeex.net-openapi.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 09:49:44 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "HLEl6qSvUZzxZwcUQ2NElFa2FmunBIy!rpmbMeGeVrtZ2nAUPxQYMCjcPy:tPRcEurV3jS:vcGYVSPUZGjk5cmU=" , {bitcoin} xeeek
+keeex prop "kx.folder", "openapi demo" xeeek
+keeex ref "revac-tohyp-bahyn-muzek-pozeg-goden-rygyp-kovuh-morom-mykub-kuzac-vusec-syrez-mufab-sasel-nomym-mexyr" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+
+*/
