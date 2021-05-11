@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xuhes-kuziz-sulob-hibeg-cugig-tabil-mecyt-runud-fecuf-tofyt-bivet-pymul-halom-hihuk-fadys-raved-vixex",
+  "type": "object",
+  "title": "The plumb item",
+  "required": [
+    "bookingReference",
+    "containerNumber",
+    "reference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "containerNumber": {
+      "$id": "#/properties/containerNumber",
+      "type": "string",
+      "title": "The container number"
+    },
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The plumb reference"
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The file name"
+    }
+  }
+}
+/*
+keeex self xuhes-kuziz-sulob-hibeg-cugig-tabil-mecyt-runud-fecuf-tofyt-bivet-pymul-halom-hihuk-fadys-raved-vixex , {main} xeeek
+keeex self 18PKiU74GEEQgXVAqSwQi2Bke7f2L12jo42Y8h3 , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "plumb.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 08:05:56 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "G7rxWdwQ:8flQhShHcgY!VfdQ5WeA!0rngC!wU8lCblveMe9DJKdlOrf5dDqkJ2KOYyb:vwg0bjVPIRwlaLUf1s=" , {bitcoin} xeeek
+keeex previous ruvim-rypof-cylyl-temog-nofoc-luriv-cemac-nufyn-kimos-hobif-cybod-meriz-dudor-sevyc-vycyt-lofek-tuxor xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "plumb" xeeek
+keeex ref "repas-zezuh-genam-kiviv-vylon-kemap-lipon-tagom-bezus-lilyb-ricen-tygal-pogic-rihit-zilod-banin-mexar" xeeek
+
+*/

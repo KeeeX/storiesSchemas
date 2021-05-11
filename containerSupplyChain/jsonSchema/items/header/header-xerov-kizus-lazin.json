@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xerov-kizus-lazin-foruf-kycan-naziv-bikek-vecen-setor-mekus-burad-sygub-hokus-telyp-fygeb-huneg-gaxux",
+  "type": "object",
+  "title": "The header item",
+  "required": [
+    "bookingReference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "carrierTraderCode": {
+      "$id": "#/properties/carrierTraderCode",
+      "type": "string",
+      "title": "The carrier trader code"
+    },
+    "direction": {
+      "$id": "#/properties/direction",
+      "type": "string",
+      "title": "The direction"
+    },
+    "shippingAgentTraderCode": {
+      "$id": "#/properties/shippingAgentTraderCode",
+      "type": "string",
+      "title": "The shipping agent trader code"
+    },
+    "shippingAgentTraderLabel": {
+      "$id": "#/properties/shippingAgentTraderLabel",
+      "type": "string",
+      "title": "The shipping agent trader label"
+    },
+    "statusDate": {
+      "$id": "#/properties/statusDate",
+      "type": "string",
+      "title": "The status date"
+    },
+    "terminalOperatorTraderCode": {
+      "$id": "#/properties/terminalOperatorTraderCode",
+      "type": "string",
+      "title": "The terminal operator trader code"
+    },
+    "terminalOperatorTraderLabel": {
+      "$id": "#/properties/terminalOperatorTraderLabel",
+      "type": "string",
+      "title": "The terminal operator trader label"
+    },
+    "terminalLocation": {
+      "$id": "#/properties/terminalLocation",
+      "type": "string",
+      "title": "The terminal location"
+    }
+  }
+}
+/*
+keeex self xerov-kizus-lazin-foruf-kycan-naziv-bikek-vecen-setor-mekus-burad-sygub-hokus-telyp-fygeb-huneg-gaxux , {main} xeeek
+keeex self 1hqCgQjQgdUTsbE2vRJc32U7U4E2cHSSh7PS1Ea , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "header.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 08:07:30 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "HItfxlM6N20IlY0iwDMnaRvm0zfx8uNDRO7VPYX!HJe6pU7:mrRZqXgR!2iofNvslOWCzxpDU0ZONnvv7OKx24M=" , {bitcoin} xeeek
+keeex previous redec-rymyg-fokub-puhah-kycac-gilit-hihok-kucek-bymog-dezit-gemab-nabor-selev-segak-divuf-velyb-caxor xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "header" xeeek
+keeex ref "ruvez-lomur-cypal-monec-cosil-tagyp-cunet-sezut-cocun-sufeb-nezif-lyfah-syzip-mosit-pohyk-degyg-baxor" xeeek
+
+*/

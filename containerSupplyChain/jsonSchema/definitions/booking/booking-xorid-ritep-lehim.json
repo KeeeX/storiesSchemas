@@ -1,55 +1,43 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "/xubic-puvys-zocif-dugoc-fasin-sadep-cyboz-comol-vobot-vutyd-netal-rizes-momeb-hakeb-mumas-tunys-dyxix",
+  "$id": "xorid-ritep-lehim-nypif-kimos-pasid-vezon-fezun-lyhon-posod-berok-zyhir-voluh-tipog-pohyf-pofyd-vixox",
   "type": "object",
-  "title": "The seen at gate event file",
+  "title": "The booking data",
   "required": [
     "interchange",
-    "container"
+    "booking"
   ],
   "additionalProperties": false,
   "properties": {
     "interchange": {
-      "allOf": [
-        {
-          "$ref": "./items/interchange.json"
-        },
-        {
-          "properties": {
-            "action": {
-              "$id": "#/properties/interchange/action",
-              "type": "string",
-              "title": "The action",
-              "const": "SEEN"
-            }
-          }
-        }
-      ]
+      "$ref": "../items/interchange-xurof-fuhak-dubeh.json"
     },
-    "container": {
-      "$ref": "./items/container.json"
+    "booking": {
+      "$ref": "../items/booking-xudid-tokyn-topeg.json"
     }
   }
 }
-
 /*
-keeex self xubic-puvys-zocif-dugoc-fasin-sadep-cyboz-comol-vobot-vutyd-netal-rizes-momeb-hakeb-mumas-tunys-dyxix , {main} xeeek
-keeex name "seen_at_gate_event.json" , {main} xeeek
+keeex self xorid-ritep-lehim-nypif-kimos-pasid-vezon-fezun-lyhon-posod-berok-zyhir-voluh-tipog-pohyf-pofyd-vixox , {main} xeeek
+keeex self 264vSLoAptm5UeoqxcgSUk6AoHWsFRpN4vBSJXr , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "booking.json" , {main} xeeek
 keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
 keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
 keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
-keeex prop "kx.time", "Mon, 10 May 2021 13:59:10 GMT" xeeek
-keeex prop "kx.pattern", "%f" xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 08:17:20 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
 keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
-keeex protected "HGkoCcoFDNBIDTknGOz8WF8UVtM!iiqvY9J9:PQMlmVcxpOZhX:vxPtdbfy:nZnaRqa7Uc5gy9H2oQeVgC4MRjY=" , {bitcoin} xeeek
-keeex prop "kx.folder", "jsonSchema" xeeek
+keeex protected "G0p6uX6T3Wv7tNqz:79ucZQMB4QxygVCgcvizQr!:H4SA7pdqzm4n!9nEFNhQNxqNm5kVjYdVMWlQ2nxIzOED1A=" , {bitcoin} xeeek
+keeex previous ribov-soter-pufys-lytiv-zycez-goler-tipeg-nuzul-balyl-retec-zodem-zekul-daset-vumyd-fityk-ticed-dyxar xeeek
 keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex prop "kx.folder", "booking" xeeek
+keeex ref "rokif-lubak-rylyp-ledyf-tepim-tivot-fabel-vihor-nirih-derac-zykif-desim-kogod-vypov-saded-fodic-kuxyr" xeeek
+keeex ref "ruhet-lufut-zofus-haked-zyser-mofid-tuded-pyfas-pehil-fizyv-hadad-vicun-ponav-zosot-ridez-lulus-luxyr" xeeek
 keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
 keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
 keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
 keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
 keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
 keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
-keeex ref "rusec-fuvub-picip-zilop-rikol-culep-fekit-cerif-nybet-fozys-nudor-perym-rotet-penus-merit-ruden-daxir" xeeek
 
 */

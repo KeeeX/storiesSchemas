@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xikev-moced-lilar-kufof-hypes-senuv-dymoh-minet-lakid-pirys-mymik-nidih-ninod-gysof-soled-sumot-luxex",
+  "type": "object",
+  "title": "The discharge list item",
+  "required": [
+    "cargos"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "cargos": {
+      "$id": "#/properties/cargos",
+      "type": "array",
+      "title": "The list of cargos",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "./cargo.json"
+          },
+          {
+            "required": [
+              "reference"
+            ]
+          }
+        ]
+      }
+    },
+    "carriageIdentification": {
+      "$id": "#/properties/carriageIdentification",
+      "type": "string",
+      "title": "The carriage identification"
+    },
+    "carriageReference": {
+      "$id": "#/properties/carriageReference",
+      "type": "string",
+      "title": "The carriage reference"
+    },
+    "eta": {
+      "$id": "#/properties/eta",
+      "type": "string",
+      "title": "The estimated time of arrival"
+    },
+    "etd": {
+      "$id": "#/properties/etd",
+      "type": "string",
+      "title": "The estimated time of delivery"
+    },
+    "inlandTransportStatus": {
+      "$id": "#/properties/inlandTransportStatus",
+      "type": "string",
+      "title": "The inland transport status"
+    },
+    "inlandCarrierTraderCode": {
+      "$id": "#/properties/inlandCarrierTraderCode",
+      "type": "string",
+      "title": "The inland carrier trader code"
+    },
+    "portOfDischargeCode": {
+      "$id": "#/properties/portOfDischargeCode",
+      "type": "string",
+      "title": "The port of discharge code"
+    },
+    "portOfLoadingCode": {
+      "$id": "#/properties/portOfLoadingCode",
+      "type": "string",
+      "title": "The port of loading code"
+    },
+    "terminalCode": {
+      "$id": "#/properties/terminalCode",
+      "type": "string",
+      "title": "The terminal code"
+    },
+    "transportMode": {
+      "$id": "#/properties/transportMode",
+      "type": "string",
+      "title": "The transport mode"
+    }
+  }
+}
+/*
+keeex self xikev-moced-lilar-kufof-hypes-senuv-dymoh-minet-lakid-pirys-mymik-nidih-ninod-gysof-soled-sumot-luxex , {main} xeeek
+keeex self 2yqP8wBFoqQ7GdsXk2HgB6PTEydR6S48sBWXzeJ , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "discharge_list.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 08:00:11 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "Gyt0:molCUyuXPrfe1TuY7CibfZX8pXhvyPffMOGmtuHRp57bVyNlGxCRpyxlqbGOXrtXCCrSJ018wpGbRLGepM=" , {bitcoin} xeeek
+keeex previous rivin-sidit-gylor-volar-timif-vylof-tesor-vohec-rufoz-pebod-lysof-hesof-vorig-vupot-tubyt-lilyg-noxor xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "discharge_list" xeeek
+keeex ref "recas-menur-madyb-hares-puryn-valyt-kulol-kydeb-capoh-fyrap-neduh-riron-fucos-rufyb-fymiz-dufal-lixor" xeeek
+
+*/

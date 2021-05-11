@@ -1,0 +1,256 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xinir-ketap-sifir-selug-rerim-sunig-rizeh-hebas-sydan-zupub-tamud-pegor-sylar-talit-bynub-vuseh-hoxux",
+  "type": "object",
+  "title": "The cargo item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "arrivalConfirmationDate": {
+      "$id": "#/properties/arrivalConfirmationDate",
+      "type": "string",
+      "title": "The arrival confirmation date"
+    },
+    "blIds": {
+      "$id": "#/properties/blIds",
+      "type": "array",
+      "title": "The list of ids of bill of loadings"
+    },
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "cargoMeasurements": {
+      "$id": "#/properties/cargoMeasurements",
+      "type": "array",
+      "title": "The cargo measurements"
+    },
+    "cargoSeals": {
+      "$id": "#/properties/cargoSeals",
+      "type": "array",
+      "title": "The list of cargo seals"
+    },
+    "createdBy": {
+      "$id": "#/properties/createdBy",
+      "type": "string",
+      "title": "Created by"
+    },
+    "createdCommunity": {
+      "$id": "#/properties/createdCommunity",
+      "type": "string",
+      "title": "Created community"
+    },
+    "createdDate": {
+      "$id": "#/properties/createdDate",
+      "type": "string",
+      "title": "The created date"
+    },
+    "createdOrganization": {
+      "$id": "#/properties/createdOrganization",
+      "type": "string",
+      "title": "Created organization"
+    },
+    "dangerous": {
+      "$id": "#/properties/dangerous",
+      "type": "array",
+      "title": "The list of dangerous",
+      "items": {
+        "$ref": "./dangerous.json"
+      }
+    },
+    "description": {
+      "$id": "#/properties/description",
+      "type": "string",
+      "title": "The description"
+    },
+    "domesticIndicator": {
+      "$id": "#/properties/domesticIndicator",
+      "type": "boolean",
+      "title": "Domestic indicator"
+    },
+    "empty": {
+      "$id": "#/properties/empty",
+      "type": "boolean",
+      "title": "Empty"
+    },
+    "fumigation": {
+      "$id": "#/properties/fumigation",
+      "type": "object",
+      "title": "The fumigation"
+    },
+    "goodsDescription": {
+      "$id": "#/properties/goodsDescription",
+      "type": "string",
+      "title": "The goods description"
+    },
+    "goodItems": {
+      "$id": "#/properties/goodItems",
+      "type": "array",
+      "title": "The list of good items",
+      "items": {
+        "$ref": "./good.json"
+      }
+    },
+    "lastModifiedBy": {
+      "$id": "#/properties/lastModifiedBy",
+      "type": "string",
+      "title": "Last modified by"
+    },
+    "lastModifiedCommunity": {
+      "$id": "#/properties/lastModifiedCommunity",
+      "type": "string",
+      "title": "Last modified community"
+    },
+    "lastModifiedDate": {
+      "$id": "#/properties/lastModifiedDate",
+      "type": "string",
+      "title": "The lastmodified date"
+    },
+    "lastModifiedOrganization": {
+      "$id": "#/properties/lastModifiedOrganization",
+      "type": "string",
+      "title": "Last modified organization"
+    },
+    "measurement": {
+      "$id": "#/properties/measurement",
+      "type": "array",
+      "title": "The list of measurements"
+    },
+    "netWeight": {
+      "$id": "#/properties/netWeight",
+      "type": "integer",
+      "title": "The net weight"
+    },
+    "nonOperatedReefer": {
+      "$id": "#/properties/nonOperatedReefer",
+      "type": "boolean",
+      "title": "Non operated reefer"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The Id"
+    },
+    "inlandCarrierReference": {
+      "$id": "#/properties/inlandCarrierReference",
+      "type": "string",
+      "title": "The inland carrier reference"
+    },
+    "ics": {
+      "$id": "#/properties/ics",
+      "type": "object",
+      "title": "The ics"
+    },
+    "oversize": {
+      "$id": "#/properties/oversize",
+      "type": "object",
+      "title": "The oversize object"
+    },
+    "packageCount": {
+      "$id": "#/properties/packageCount",
+      "type": "integer",
+      "title": "The package count"
+    },
+    "packageTypeCode": {
+      "$id": "#/properties/packageTypeCode",
+      "type": "string",
+      "title": "The package type code"
+    },
+    "preArrivalNotification": {
+      "$id": "#/properties/preArrivalNotification",
+      "type": "boolean",
+      "title": "Pre arrival notification"
+    },
+    "rank": {
+      "$id": "#/properties/rank",
+      "type": "integer",
+      "title": "The rank number"
+    },
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "reefer": {
+      "$id": "#/properties/reefer",
+      "type": "object",
+      "title": "The reefer"
+    },
+    "seal": {
+      "$id": "#/properties/seal",
+      "type": "array",
+      "title": "The list of seals"
+    },
+    "seqNumber": {
+      "$id": "#/properties/seqNumber",
+      "type": "integer",
+      "title": "The sequence number"
+    },
+    "shippingOrderId": {
+      "$id": "#/properties/shippingOrderId",
+      "type": "integer",
+      "title": "The shipping order id"
+    },
+    "shipperOwned": {
+      "$id": "#/properties/shipperOwned",
+      "type": "boolean",
+      "title": "Shipper owned"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "title": "The status"
+    },
+    "tare": {
+      "$id": "#/properties/tare",
+      "type": "integer",
+      "title": "The tare"
+    },
+    "terminalCode": {
+      "$id": "#/properties/terminalCode",
+      "type": "string",
+      "title": "The terminal code"
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The type"
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "integer",
+      "title": "The version number"
+    },
+    "vgms": {
+      "$id": "#/properties/vgms",
+      "type": "array",
+      "title": "The list of vgms"
+    }
+  }
+}
+/*
+keeex self xinir-ketap-sifir-selug-rerim-sunig-rizeh-hebas-sydan-zupub-tamud-pegor-sylar-talit-bynub-vuseh-hoxux , {main} xeeek
+keeex self 2fHRTkRSw4fiyhmGPr9Y49WuxX3FrtKugeB5tiz , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "cargo.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 07:54:15 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "HK:4vLdL:UKct2rFZEdT2rD!rX6DiLpHMSS764iJPsRNZ6QWHMAZ24cKZmraPRWbpXkOQc!RU3tNPN45Cs!8i5U=" , {bitcoin} xeeek
+keeex previous refab-vubac-vabuc-fizik-viher-boven-doluv-valak-bulel-gitit-dizek-zaral-gubyv-balet-cemez-vyrev-mexor xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "cargo" xeeek
+keeex ref "rotin-tuciv-kyhel-pebuk-ruhif-rezan-saman-biliz-kunyz-cimav-rifig-rymiv-pihan-gisit-pahin-licof-baxor" xeeek
+
+*/

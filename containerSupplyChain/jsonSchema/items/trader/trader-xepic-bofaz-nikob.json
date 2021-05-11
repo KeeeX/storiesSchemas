@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xepic-bofaz-nikob-sicib-parid-gikub-fovyh-vamuk-gicug-palav-fyfat-nucic-zynar-meged-kacet-rizyp-loxix",
+  "type": "object",
+  "title": "The trader item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "folderReference": {
+      "$id": "#/properties/folderReference",
+      "type": "string",
+      "title": "The folder reference"
+    },
+    "trader": {
+      "$id": "#/properties/trader",
+      "type": "string",
+      "title": "The trader name"
+    },
+    "traderCode": {
+      "$id": "#/properties/traderCode",
+      "type": "string",
+      "title": "The trader code"
+    },
+    "traderId": {
+      "$id": "#/properties/traderId",
+      "type": "string",
+      "title": "The trader id"
+    },
+    "traderLabel": {
+      "$id": "#/properties/traderLabel",
+      "type": "string",
+      "title": "The trader label"
+    },
+    "traderReference": {
+      "$id": "#/properties/traderReference",
+      "type": "string",
+      "title": "The trader reference"
+    },
+    "traderType": {
+      "$id": "#/properties/traderType",
+      "type": "string",
+      "title": "The trader type"
+    }
+  }
+}
+/*
+keeex self xepic-bofaz-nikob-sicib-parid-gikub-fovyh-vamuk-gicug-palav-fyfat-nucic-zynar-meged-kacet-rizyp-loxix , {main} xeeek
+keeex self 3V4g4kCMNwGRikBXZqBfjcDCXLhc2jBC9CysRQd , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "trader.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 08:03:20 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "Gwkw5qt!QCBXukL!!ud33yNCVBrMGb87mbQwo1pG16eO9Y6pugVdhK511AxJBqwlICsnFUe9IhVuPs49DunJobA=" , {bitcoin} xeeek
+keeex previous rorov-gecyc-tarin-durok-buvuv-deruv-midut-perul-berof-lufud-ticym-gurib-velim-lomal-vuhet-lyvyr-bixor xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "trader" xeeek
+keeex ref "rikak-cyhac-davup-soser-cusun-ferah-hocek-zuhyg-cadab-kelyn-rocic-hehel-sakap-ricis-fisyd-vukog-rexer" xeeek
+
+*/

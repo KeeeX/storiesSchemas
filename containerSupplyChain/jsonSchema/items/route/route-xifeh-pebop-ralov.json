@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xifeh-pebop-ralov-lozaf-nadat-hasat-nineg-mucav-polib-tahef-bytoz-dezek-revah-hurop-nykez-bydat-kyxix",
+  "type": "object",
+  "title": "The route item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "callNumber": {
+      "$id": "#/properties/callNumber",
+      "type": "string",
+      "title": "The call number"
+    },
+    "eta": {
+      "$id": "#/properties/eta",
+      "type": "string",
+      "title": "The estimated time of arrival"
+    },
+    "etd": {
+      "$id": "#/properties/etd",
+      "type": "string",
+      "title": "The estimated time of delivery"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id"
+    },
+    "newVoyage": {
+      "$id": "#/properties/newVoyage",
+      "type": "boolean",
+      "title": "New voyage"
+    },
+    "portOfDestination": {
+      "$id": "#/properties/portOfDestination",
+      "type": "string",
+      "title": "The port of destination"
+    },
+    "portOfLoading": {
+      "$id": "#/properties/portOfLoading",
+      "type": "string",
+      "title": "The port of loading"
+    },
+    "portOfOrigin": {
+      "$id": "#/properties/portOfOrigin",
+      "type": "string",
+      "title": "The port of origin"
+    },
+    "preCallNumber": {
+      "$id": "#/properties/preCallNumber",
+      "type": "string",
+      "title": "The precall number"
+    },
+    "vessel": {
+      "$id": "#/properties/vessel",
+      "type": "string",
+      "title": "The vessel"
+    },
+    "vesselName": {
+      "$id": "#/properties/vesselName",
+      "type": "string",
+      "title": "The vessel name"
+    },
+    "voyageNumber": {
+      "$id": "#/properties/voyageNumber",
+      "type": "string",
+      "title": "The voyage number"
+    }
+  }
+}
+/*
+keeex self xifeh-pebop-ralov-lozaf-nadat-hasat-nineg-mucav-polib-tahef-bytoz-dezek-revah-hurop-nykez-bydat-kyxix , {main} xeeek
+keeex self 2dsxtsoPnWmAE457JTqB3WybHjTkRkRqZWLWfyx , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "route.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 08:04:46 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "GyOId:pvUUeCiIVxuI7heSwq45YL1JHKfwO20Wk1GWWUHakn6NbmfBG7PqhADtPQqkWxjo6MSumu8W6s50wFHBM=" , {bitcoin} xeeek
+keeex previous revep-logyn-fulyt-hynet-daluv-narot-pilif-losoh-kyzup-lebag-mopek-kupiz-kenib-bavol-kesap-rumez-zexar xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "route" xeeek
+keeex ref "ridod-kycub-fogos-gysac-kobyg-bumas-tatag-bizud-bagop-bumef-neryz-sozun-lucov-mudib-zetod-vosyt-buxor" xeeek
+
+*/

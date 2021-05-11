@@ -1,0 +1,154 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xudid-tokyn-topeg-dulih-rires-danyr-sugim-tukyv-lalit-zotuv-ronit-fanol-byzib-comud-gares-dideh-vixix",
+  "type": "object",
+  "title": "The booking item",
+  "required": [
+    "cargos",
+    "reference",
+    "type"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cargos": {
+      "$id": "#/properties/cargos",
+      "type": "array",
+      "title": "The list of cargos",
+      "items": {
+        "$ref": "./cargo.json"
+      }
+    },
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The type"
+    },
+    "agentTraderCode": {
+      "$id": "#/properties/agentTraderCode",
+      "type": "string",
+      "title": "The agent trader code"
+    },
+    "createdBy": {
+      "$id": "#/properties/createdBy",
+      "type": "string",
+      "title": "Created by"
+    },
+    "createdCommunity": {
+      "$id": "#/properties/createdCommunity",
+      "type": "string",
+      "title": "The created community"
+    },
+    "createdDate": {
+      "$id": "#/properties/createdDate",
+      "type": "string",
+      "title": "The created date"
+    },
+    "createdOrganization": {
+      "$id": "#/properties/createdOrganization",
+      "type": "string",
+      "title": "The created organization"
+    },
+    "deletedDate": {
+      "$id": "#/properties/deletedDate",
+      "type": "string",
+      "title": "The deleted date"
+    },
+    "folderId": {
+      "$id": "#/properties/folderId",
+      "type": "integer",
+      "title": "The folder Id"
+    },
+    "freightForwarderCode": {
+      "$id": "#/properties/freightForwarderCode",
+      "type": "string",
+      "title": "The freight forwarder code"
+    },
+    "freightForwarderReference": {
+      "$id": "#/properties/freightForwarderReference",
+      "type": "string",
+      "title": "The freight forwarder reference"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id"
+    },
+    "lastModifiedBy": {
+      "$id": "#/properties/lastModifiedBy",
+      "type": "string",
+      "title": "The last modified by"
+    },
+    "lastModifiedCommunity": {
+      "$id": "#/properties/lastModifiedCommunity",
+      "type": "string",
+      "title": "The last modified community"
+    },
+    "lastModifiedDate": {
+      "$id": "#/properties/lastModifiedDate",
+      "type": "string",
+      "title": "The last modified date"
+    },
+    "lastModifiedOrganization": {
+      "$id": "#/properties/lastModifiedOrganization",
+      "type": "string",
+      "title": "The last modified organization"
+    },
+    "location": {
+      "$id": "#/properties/location",
+      "type": "string",
+      "title": "The location"
+    },
+    "publishedDate": {
+      "$id": "#/properties/publishedDate",
+      "type": "string",
+      "title": "The published date"
+    },
+    "route": {
+      "$ref": "./route.json"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "title": "The status"
+    },
+    "terminalLocation": {
+      "$id": "#/properties/terminalLocation",
+      "type": "string",
+      "title": "The terminal location"
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "integer",
+      "title": "The version number"
+    }
+  }
+}
+/*
+keeex self xudid-tokyn-topeg-dulih-rires-danyr-sugim-tukyv-lalit-zotuv-ronit-fanol-byzib-comud-gares-dideh-vixix , {main} xeeek
+keeex self 2L5QSqJHcyTYDxKg89stSJLkyooy6zgovpTxRjy , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "booking.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 07:42:47 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "HHSr2wa2aaKlCMQpodEL6q!1nII5a:UUQXkjX!JSAycy8aNAAmMmBLjW4D4iISr8iS0XuJPCe8k5kwmN4pbVZkA=" , {bitcoin} xeeek
+keeex previous rerad-zocob-sozed-rymit-cynet-tadyn-tyhoh-ramoz-lasub-catul-kogys-mymaf-rolat-codah-nazyd-dimaz-moxur xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "booking" xeeek
+keeex ref "rokif-lubak-rylyp-ledyf-tepim-tivot-fabel-vihor-nirih-derac-zykif-desim-kogod-vypov-saded-fodic-kuxyr" xeeek
+
+*/

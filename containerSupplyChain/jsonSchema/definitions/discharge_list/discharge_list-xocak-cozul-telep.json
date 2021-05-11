@@ -1,34 +1,34 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "xedov-ligut-huner-herit-ninot-buhoz-bobes-nehen-mozez-digyk-vobor-disag-bidol-somin-tepyr-vupyc-fuxax",
+  "$id": "xocak-cozul-telep-pevin-byzyr-rudib-fobuv-linan-sofat-nesuf-cifoh-tutot-bafab-pozyr-dupek-lodor-loxex",
   "type": "object",
-  "title": "The plumb file",
+  "title": "The discharge list file",
   "required": [
     "interchange",
-    "plumb"
+    "dischargeList"
   ],
   "additionalProperties": false,
   "properties": {
     "interchange": {
-      "$ref": "./items/interchange.json"
+      "$ref": "../../items/interchange/interchange-xurof-fuhak-dubeh.json"
     },
-    "plumb": {
-      "$ref": "./items/plumb.json"
+    "dischargeList": {
+      "$ref": "../../items/discharge_list/discharge_list-xikev-moced-lilar.json"
     }
   }
 }
-
 /*
-keeex self xedov-ligut-huner-herit-ninot-buhoz-bobes-nehen-mozez-digyk-vobor-disag-bidol-somin-tepyr-vupyc-fuxax , {main} xeeek
-keeex name "seal.json" , {main} xeeek
+keeex self xocak-cozul-telep-pevin-byzyr-rudib-fobuv-linan-sofat-nesuf-cifoh-tutot-bafab-pozyr-dupek-lodor-loxex , {main} xeeek
+keeex self 158cN4yXXtcoFxBxGVYLdHQ4jTVfZ2nFAmjEN6N , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "discharge_list.json" , {main} xeeek
 keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
 keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
 keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
-keeex prop "kx.time", "Mon, 10 May 2021 13:59:09 GMT" xeeek
-keeex prop "kx.pattern", "%f" xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 08:39:32 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
 keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
-keeex protected "HBA0qiiV50zBNU11DezBoWAMgMnwZ5yrMSeJ0mDZEdTVv5JnXS20eEnnyWrlFpmee4lnQqV!e0RUJ:97fiIPPhw=" , {bitcoin} xeeek
-keeex prop "kx.folder", "jsonSchema" xeeek
+keeex protected "HN0ICUY7BjeDZLMXU!YLLzHm9pJrMBJgcG8Ey8kZgxwFxy1LgTENzKu7DGNhLCzas!DmQXeZb5pkEjghoptAEr0=" , {bitcoin} xeeek
+keeex previous recez-gunac-cavog-cylef-fidut-fapod-tubiz-bozap-mavid-papar-cubon-zadam-livil-hevel-siciv-vipih-syxer xeeek
 keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
 keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
 keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
@@ -37,5 +37,8 @@ keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-voc
 keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
 keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
 keeex ref "rusec-fuvub-picip-zilop-rikol-culep-fekit-cerif-nybet-fozys-nudor-perym-rotet-penus-merit-ruden-daxir" xeeek
+keeex prop "kx.folder", "discharge_list" xeeek
+keeex ref "recas-menur-madyb-hares-puryn-valyt-kulol-kydeb-capoh-fyrap-neduh-riron-fucos-rufyb-fymiz-dufal-lixor" xeeek
+keeex ref "ruhet-lufut-zofus-haked-zyser-mofid-tuded-pyfas-pehil-fizyv-hadad-vicun-ponav-zosot-ridez-lulus-luxyr" xeeek
 
 */

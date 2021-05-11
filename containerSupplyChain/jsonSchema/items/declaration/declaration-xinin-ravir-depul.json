@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xinin-ravir-depul-colib-lamer-sogyt-nudoh-pypuv-kinic-gopup-gugum-tahyt-mapan-rucaz-pityr-byreh-syxyx",
+  "type": "object",
+  "title": "The declaration item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "customsAgentTraderCode": {
+      "$id": "#/properties/customsAgentTraderCode",
+      "type": "string"
+    },
+    "customsAgentTraderLabel": {
+      "$id": "#/properties/customsAgentTraderLabel",
+      "type": "string"
+    },
+    "customsAgentReference": {
+      "$id": "#/properties/customsAgentReference",
+      "type": "string"
+    },
+    "customsOfficeCode": {
+      "$id": "#/properties/customsOfficeCode",
+      "type": "string"
+    },
+    "customsOfficeLabel": {
+      "$id": "#/properties/customsOfficeLabel",
+      "type": "string"
+    },
+    "declarationId": {
+      "$id": "#/properties/declarationId",
+      "type": "string"
+    },
+    "declarationType": {
+      "$id": "#/properties/declarationType",
+      "type": "string"
+    },
+    "packageNumber": {
+      "$id": "#/properties/packageNumber",
+      "type": "integer"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string"
+    },
+    "weight": {
+      "$id": "#/properties/weight",
+      "type": "integer"
+    }
+  }
+}
+/*
+keeex self xinin-ravir-depul-colib-lamer-sogyt-nudoh-pypuv-kinic-gopup-gugum-tahyt-mapan-rucaz-pityr-byreh-syxyx , {main} xeeek
+keeex self 26FHUyoHMfPdfY6hP8rndoEZ1KujSMgCmhmyVVX , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "declaration.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 07:59:19 GMT" xeeek
+keeex prop "kx.pattern", "%f-$1-$2-$3" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "G0V0yT67DRaq:j2!cjJ:gICJUzcdwWaIsEN0!xWwdeV0sS36:!47AQxvKDYsnBAFFI:ysbzz87aLqH3yMHoIdTI=" , {bitcoin} xeeek
+keeex previous remar-masof-zucod-fuvuv-fadil-fudyr-lamyd-cycyc-vinef-zityd-runer-modah-zufom-sekiv-vyrog-gimin-haxir xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rizaz-fodiz-zolus-socun-ritun-bygyk-dutuk-cyfaf-zamol-ninyl-hepaf-gihyf-ragem-bikap-mehir-holan-nixir" xeeek
+keeex prop "kx.folder", "declaration" xeeek
+keeex ref "rogoh-cimev-lopiv-detys-kyfem-vycav-zited-zusyb-bymec-bygep-sahel-kepam-milic-zyfyn-lofos-tavyz-cuxor" xeeek
+
+*/

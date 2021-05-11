@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xotiz-sofac-hodef-dohev-vobaz-kifev-davon-lufop-pygel-gedam-kopiv-nilat-numac-dirum-dyfyr-basen-syxex",
+  "type": "object",
+  "title": "The seen at gate event file",
+  "required": [
+    "interchange",
+    "container"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "allOf": [
+        {
+          "$ref": "./items/interchange.json"
+        },
+        {
+          "properties": {
+            "action": {
+              "$id": "#/properties/interchange/action",
+              "type": "string",
+              "title": "The action",
+              "const": "SEEN"
+            }
+          }
+        }
+      ]
+    },
+    "container": {
+      "$ref": "./items/container.json"
+    }
+  }
+}
+/*
+keeex self xotiz-sofac-hodef-dohev-vobaz-kifev-davon-lufop-pygel-gedam-kopiv-nilat-numac-dirum-dyfyr-basen-syxex , {main} xeeek
+keeex self 1mfsx2sdAVA4Tg4drtz4PfvB9hjggA1FeuhW2kE , {alg:sha224,enc:b58,recursive:1} xeeek
+keeex name "seen_at_gate_event.json" , {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex ref "rifaz-bycoz-veboh-teseh-kuvif-sapun-tydaf-hahel-zumip-rebok-niduc-bilag-setan-mynun-gyzih-demom-pexir" , {mine} xeeek
+keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek
+keeex prop "kx.time", "Tue, 11 May 2021 07:17:37 GMT" xeeek
+keeex prop "kx.pattern", "%f" xeeek
+keeex prop "kx.publickey", "16VjbGbn6oDmcAbeZFmdeZu6Vj9ekSaBSA", {bitcoin} xeeek
+keeex protected "HDEi35R0nqXsuBBZsjwSEpCR!Fr:zqKUlwlZJJ!KXPWtUb26MPsOSA45OY2rKXXrn1ofjzJbja0GuRRDc3E1DBA=" , {bitcoin} xeeek
+keeex previous rubic-puvys-zocif-dugoc-fasin-sadep-cyboz-comol-vobot-vutyd-netal-rizes-momeb-hakeb-mumas-tunys-dyxir xeeek
+keeex ref "rolez-hifyc-tyvol-dydev-zasom-dozas-cocof-pyvas-vatug-gihaz-nased-pekud-ficas-lubuk-gasar-tuded-taxer" xeeek
+keeex ref "relap-gadac-hebem-deviz-bamyp-hadoc-zycod-fylep-togof-kylod-tyrok-falus-sulyt-lanyd-bafyt-puvac-syxar" xeeek
+keeex ref "redib-nesiv-helub-dybyd-guzyn-bubab-kycez-mekyg-filod-suvak-syzyk-buvoc-bulaf-zozon-pukyt-habec-vaxyr" xeeek
+keeex ref "romik-nivyr-cybys-fubir-kypuf-bipov-byhur-zirez-likys-fatek-vonap-kuhuf-gizod-cecag-cylar-galur-nuxur" xeeek
+keeex ref "rufev-mahob-hidop-letyr-vybyk-satik-zices-bobum-sytef-roryb-dabad-vocur-fodyg-ranet-megip-zakev-noxar" xeeek
+keeex ref "rucac-kefyp-rohit-sonul-vakif-vuhyg-movyl-neboc-gykun-rebel-sogap-mepod-typin-hetir-tekus-pyfip-guxer" xeeek
+keeex ref "risat-fupac-vypel-kizik-zukak-rylas-citig-zuson-gomag-kocug-conar-lagif-besig-rucyr-soted-pemyc-cyxir" xeeek
+keeex ref "rusec-fuvub-picip-zilop-rikol-culep-fekit-cerif-nybet-fozys-nudor-perym-rotet-penus-merit-ruden-daxir" xeeek
+keeex prop "kx.folder", "seen_at_gate_event" xeeek
+keeex ref "rupet-naluf-bynen-sohoh-tunis-zabyr-lozyk-teryg-kytyr-karyf-lalyb-lalyk-posar-ruhit-kapoz-gagur-zaxyr" xeeek
+keeex ref "ruhet-lufut-zofus-haked-zyser-mofid-tuded-pyfas-pehil-fizyv-hadad-vicun-ponav-zosot-ridez-lulus-luxyr" xeeek
+
+*/
