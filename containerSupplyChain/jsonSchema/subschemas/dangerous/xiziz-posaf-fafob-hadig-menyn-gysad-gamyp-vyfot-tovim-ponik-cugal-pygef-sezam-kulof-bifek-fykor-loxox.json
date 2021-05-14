@@ -1,0 +1,56 @@
+{
+   "$id" : "static.keeex.me/xiziz-posaf-fafob-hadig-menyn-gysad-gamyp-vyfot-tovim-ponik-cugal-pygef-sezam-kulof-bifek-fykor-loxox",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "additionalProperties" : true,
+   "description" : "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's idx by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+   "kxdata" : {
+      "idx" : "xiziz-posaf-fafob-hadig-menyn-gysad-gamyp-vyfot-tovim-ponik-cugal-pygef-sezam-kulof-bifek-fykor-loxox",
+      "metadata" : [
+         "keeex self xiziz-posaf-fafob-hadig-menyn-gysad-gamyp-vyfot-tovim-ponik-cugal-pygef-sezam-kulof-bifek-fykor-loxox, {main} xeeek",
+         "keeex self 29oPJiMKKtNWY1vWruqZx74RhNCVPSJVrazkJT1, {alg:sha224, enc:b58, recursive:1} xeeek",
+         "keeex name &quot;dangerous.kxjson&quot;, {main} xeeek",
+         "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+         "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+         "keeex prop &quot;kx.time&quot;, &quot;2021-05-14T09:37:36Z&quot; xeeek",
+         "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+         "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+         "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12431728|6f35af06aa2a894df0ca0cbcf6a0eb7a361b35b06b8a3e61f8fc9c47eb7d7276|2021-05-14T09:37:31.616Z&quot; xeeek",
+         "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G!SkIY8rjP5rXnfkcRXJa74k382qXz8Zbv0TxcQtX3M21zCtxp2NWXWx74X9fmRHSE3LGJEa65letchkee0H988=&quot;, {bitcoin} xeeek"
+      ]
+   },
+   "properties" : {
+      "class" : {
+         "type" : "string"
+      },
+      "expectedQuantity" : {
+         "type" : "integer"
+      },
+      "id" : {
+         "type" : "integer"
+      },
+      "limitedQuantity" : {
+         "type" : "integer"
+      },
+      "marinePollutant" : {
+         "type" : "boolean"
+      },
+      "packageNbr" : {
+         "type" : "integer"
+      },
+      "packingGroup" : {
+         "type" : "string"
+      },
+      "un" : {
+         "type" : "string"
+      },
+      "version" : {
+         "type" : "integer"
+      },
+      "weight" : {
+         "type" : "integer"
+      }
+   },
+   "required" : [],
+   "title" : "Subschema for dangerous items",
+   "type" : "object"
+}
