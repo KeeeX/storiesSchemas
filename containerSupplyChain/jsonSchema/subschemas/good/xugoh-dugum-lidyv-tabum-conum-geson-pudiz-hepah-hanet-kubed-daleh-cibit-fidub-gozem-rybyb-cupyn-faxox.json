@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xugoh-dugum-lidyv-tabum-conum-geson-pudiz-hepah-hanet-kubed-daleh-cibit-fidub-gozem-rybyb-cupyn-faxox",
+  "type": "object",
+  "title": "Subschema for Good",
+  "description": "This JSON Schema definition is a keeexed file. It can be searched from it's id by file name or content then verified:
+- verification at https://services.keeex.me/verify
+- search on GitHub at https://github.com/search?l=&q=xugoh-dugum-lidyv-tabum-conum-geson-pudiz-hepah-hanet-kubed-daleh-cibit-fidub-gozem-rybyb-cupyn-faxox&type=code 
+- meta search if available on keeex http://static.keeex.me/at xugoh-dugum-lidyv-tabum-conum-geson-pudiz-hepah-hanet-kubed-daleh-cibit-fidub-gozem-rybyb-cupyn-faxox
+- general search engines or open source repositories",
+  "$comment":"",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "blId": {
+      "type": "integer",
+      "description": "The bill of lading id"
+    },
+    "description": {
+      "type": "string",
+      "description": "The description"
+    },
+    "grossWeight": {
+      "type": "integer",
+      "description": "The gross weight"
+    },
+    "id": {
+      "type": "integer",
+      "description": "The good id"
+    },
+    "packageTypeCode": {
+      "type": "string",
+      "description": "The code of package type"
+    },
+    "quantity": {
+      "type": "integer",
+      "description": "The quantity"
+    },
+    "version": {,
+      "type": "integer",
+      "description": "The version"
+    }
+  }
+}
+/*keeex self xugoh-dugum-lidyv-tabum-conum-geson-pudiz-hepah-hanet-kubed-daleh-cibit-fidub-gozem-rybyb-cupyn-faxox, {main} xeeek
+keeex self 3E371mpmoTfujRPSByYt49FXxbFzsoBi7mejb8B, {alg:sha224, enc:b58, recursive:1} xeeek
+keeex name "good.json", {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex prop "kx.description", "" xeeek
+keeex prop "kx.time", "2021-05-14T08:22:10Z" xeeek
+keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek
+keeex prop "kx.licence", "Protected by KeeeX using KaaaS" xeeek
+keeex prop "afterBC", "BC|ETH.main|12431389|db486d295cc6e700b80767c4c284b15076fe83601267e6fbc2a5d22f270c62ac|2021-05-14T08:21:52.109Z" xeeek
+keeex signature "1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn", "HCA5HCfXZ7gNLBk1LPcvelpn:ut0N8s2YdV85BfmRCi3G:CB8zfKo6k5!j3eguFGD6sbROtMuWpds2NHaCIWmQE=", {bitcoin} xeeek*/
