@@ -1,0 +1,74 @@
+{
+   "$id" : "static.keeex.me/xepil-tybal-tuvub-zorub-hykec-cusim-sagoc-merob-murin-lehod-zateb-sysyh-myrak-remup-gagyz-zetos-bexex",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "additionalProperties" : true,
+   "description" : "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+   "kxdata" : {
+      "idx" : "xepil-tybal-tuvub-zorub-hykec-cusim-sagoc-merob-murin-lehod-zateb-sysyh-myrak-remup-gagyz-zetos-bexex",
+      "metadata" : [
+         "keeex self xepil-tybal-tuvub-zorub-hykec-cusim-sagoc-merob-murin-lehod-zateb-sysyh-myrak-remup-gagyz-zetos-bexex, {main} xeeek",
+         "keeex self 2s8qqfXzEQbWmevD2ApASN3b7AAgiwzgDhttv52, {alg:sha224, enc:b58, recursive:1} xeeek",
+         "keeex name &quot;nextroute.kxjson&quot;, {main} xeeek",
+         "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+         "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+         "keeex prop &quot;kx.time&quot;, &quot;2021-05-14T13:51:20Z&quot; xeeek",
+         "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+         "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+         "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12432878|ba12b1ce4de72b5a714aca09b9d63c32b457f14852a5d55cfbb0e5244d677484|2021-05-14T13:51:16.854Z&quot; xeeek",
+         "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HJjr127x7AvtEg6MrWlolunQNlIq95kR6:zx:EACTIjtxHm0prq70Vd09A:QhfCan9KnS0kHeuz9MDLUoBjOQq0=&quot;, {bitcoin} xeeek"
+      ]
+   },
+   "properties" : {
+      "callNumber" : {
+         "description" : "The call number",
+         "type" : "string"
+      },
+      "eta" : {
+         "description" : "The estimated time of arrival",
+         "type" : "string"
+      },
+      "etd" : {
+         "description" : "The estimated time of delivery",
+         "type" : "string"
+      },
+      "id" : {
+         "description" : "The id",
+         "type" : "integer"
+      },
+      "newVoyage" : {
+         "description" : "New voyage",
+         "type" : "boolean"
+      },
+      "portOfDestination" : {
+         "description" : "The port of destination",
+         "type" : "string"
+      },
+      "portOfLoading" : {
+         "description" : "The port of loading",
+         "type" : "string"
+      },
+      "portOfOrigin" : {
+         "description" : "The port of origin",
+         "type" : "string"
+      },
+      "preCallNumber" : {
+         "description" : "The precall number",
+         "type" : "string"
+      },
+      "vessel" : {
+         "description" : "The vessel",
+         "type" : "string"
+      },
+      "vesselName" : {
+         "description" : "The vessel name",
+         "type" : "string"
+      },
+      "voyageNumber" : {
+         "description" : "The voyage number",
+         "type" : "string"
+      }
+   },
+   "required" : [],
+   "title" : "The route item",
+   "type" : "object"
+}

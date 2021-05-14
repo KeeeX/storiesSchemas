@@ -1,0 +1,124 @@
+{
+   "$id" : "static.keeex.me/xecim-somot-rufym-ferig-suzin-vypov-buhof-kerum-fucon-dokik-fuvih-dahif-mulub-fygot-lirib-fubol-noxax",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "additionalProperties" : false,
+   "description" : "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+   "kxdata" : {
+      "idx" : "xecim-somot-rufym-ferig-suzin-vypov-buhof-kerum-fucon-dokik-fuvih-dahif-mulub-fygot-lirib-fubol-noxax",
+      "metadata" : [
+         "keeex self xecim-somot-rufym-ferig-suzin-vypov-buhof-kerum-fucon-dokik-fuvih-dahif-mulub-fygot-lirib-fubol-noxax, {main} xeeek",
+         "keeex self 2Er2nrr6SrmDyxzvwxwWKqssdqixTRZ6h8jgynu, {alg:sha224, enc:b58, recursive:1} xeeek",
+         "keeex name &quot;nextbooking.kxjson&quot;, {main} xeeek",
+         "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+         "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+         "keeex prop &quot;kx.time&quot;, &quot;2021-05-14T13:58:56Z&quot; xeeek",
+         "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+         "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+         "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12432911|9cec2b06c4e97b699f937413572de12f7529f0bef3e17d9331bacc7a9ecfe911|2021-05-14T13:58:54.002Z&quot; xeeek",
+         "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G4OZkvjDJ6HSA2WMolInvgEjHRACNy3WmynvlK!vX3upjkzCZt4z!ORWscVin39X9g3Up3e87jO8WVWvEco!CiE=&quot;, {bitcoin} xeeek"
+      ]
+   },
+   "properties" : {
+      "agentTraderCode" : {
+         "description" : "The agent trader code",
+         "type" : "string"
+      },
+      "cargos" : {
+         "description" : "The list of cargos",
+         "items" : {
+            "$ref" : "https://static.keeex.me/xisil-pudyn-kogul-kysyv-semol-toviz-vusyl-rucun-rizen-hytuf-fepup-beful-caboz-tyled-pucav-difec-pixyx"
+         },
+         "type" : "array"
+      },
+      "createdBy" : {
+         "description" : "Created by",
+         "type" : "string"
+      },
+      "createdCommunity" : {
+         "description" : "The created community",
+         "type" : "string"
+      },
+      "createdDate" : {
+         "description" : "The created date",
+         "type" : "string"
+      },
+      "createdOrganization" : {
+         "description" : "The created organization",
+         "type" : "string"
+      },
+      "deletedDate" : {
+         "description" : "The deleted date",
+         "type" : "string"
+      },
+      "folderId" : {
+         "description" : "The folder Id",
+         "type" : "integer"
+      },
+      "freightForwarderCode" : {
+         "description" : "The freight forwarder code",
+         "type" : "string"
+      },
+      "freightForwarderReference" : {
+         "description" : "The freight forwarder reference",
+         "type" : "string"
+      },
+      "id" : {
+         "description" : "The id",
+         "type" : "integer"
+      },
+      "lastModifiedBy" : {
+         "description" : "The last modified by",
+         "type" : "string"
+      },
+      "lastModifiedCommunity" : {
+         "description" : "The last modified community",
+         "type" : "string"
+      },
+      "lastModifiedDate" : {
+         "description" : "The last modified date",
+         "type" : "string"
+      },
+      "lastModifiedOrganization" : {
+         "description" : "The last modified organization",
+         "type" : "string"
+      },
+      "location" : {
+         "description" : "The location",
+         "type" : "string"
+      },
+      "publishedDate" : {
+         "description" : "The published date",
+         "type" : "string"
+      },
+      "reference" : {
+         "description" : "The reference",
+         "type" : "string"
+      },
+      "route" : {
+         "$ref" : "https://static.keeex.me/xepil-tybal-tuvub-zorub-hykec-cusim-sagoc-merob-murin-lehod-zateb-sysyh-myrak-remup-gagyz-zetos-bexex"
+      },
+      "status" : {
+         "description" : "The status",
+         "type" : "string"
+      },
+      "terminalLocation" : {
+         "description" : "The terminal location",
+         "type" : "string"
+      },
+      "type" : {
+         "description" : "The type",
+         "type" : "string"
+      },
+      "version" : {
+         "description" : "The version number",
+         "type" : "integer"
+      }
+   },
+   "required" : [
+      "cargos",
+      "reference",
+      "type"
+   ],
+   "title" : "The booking item",
+   "type" : "object"
+}
