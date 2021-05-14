@@ -1,0 +1,81 @@
+{
+   "$id" : "xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "additionalProperties" : true,
+   "description" : "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+   "kxdata" : {
+      "idx" : "xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax",
+      "metadata" : [
+         "keeex self xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax, {main} xeeek",
+         "keeex self 24FL5PvMp1GXwDiKTLwDtuAqdYPSDkCTxpagNHa, {alg:sha224, enc:b58, recursive:1} xeeek",
+         "keeex name &quot;nextinterchange.kxjson&quot;, {main} xeeek",
+         "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+         "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+         "keeex prop &quot;kx.time&quot;, &quot;2021-05-14T14:45:28Z&quot; xeeek",
+         "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+         "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+         "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12433095|9d6850acb5e73383a13e102a48231abc805355fdbf0b400fa5509888a9712fe9|2021-05-14T14:45:24.599Z&quot; xeeek",
+         "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HLjHfqO2iC1XAXsdz4DDJO6kr4mp1V2rlmXo!fFwf5RM7aHRdZeGq9xAeJGewxleOQB!q2AuNNGizGyE03U9f!Q=&quot;, {bitcoin} xeeek"
+      ]
+   },
+   "properties" : {
+      "action" : {
+         "description" : "The action",
+         "type" : "string"
+      },
+      "applicationReceiver" : {
+         "description" : "The application receiver",
+         "type" : "string"
+      },
+      "applicationSender" : {
+         "description" : "The application sender",
+         "type" : "string"
+      },
+      "community" : {
+         "description" : "The community",
+         "type" : "string"
+      },
+      "date" : {
+         "description" : "Date",
+         "type" : "string"
+      },
+      "id" : {
+         "description" : "The id",
+         "type" : "string"
+      },
+      "message" : {
+         "description" : "The message",
+         "type" : "string"
+      },
+      "messageCode" : {
+         "description" : "The message code",
+         "type" : "string"
+      },
+      "messageId" : {
+         "description" : "The message id",
+         "type" : "string"
+      },
+      "organization" : {
+         "description" : "The organization",
+         "type" : "string"
+      },
+      "organizationId" : {
+         "description" : "The organization id",
+         "type" : "string"
+      },
+      "profile" : {
+         "description" : "The profile",
+         "type" : "string"
+      },
+      "version" : {
+         "description" : "The version",
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "applicationSender",
+      "date"
+   ],
+   "title" : "The interchange item",
+   "type" : "object"
+}

@@ -1,0 +1,35 @@
+{
+   "$id" : "static.keeex.me/xutel-veruc-kigip-lypob-vuhem-firim-zyreg-sifan-havec-kunir-disun-hypif-sevys-pyfyp-gidil-pafoh-cixex",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "additionalProperties" : false,
+   "description" : "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+   "kxdata" : {
+      "idx" : "xutel-veruc-kigip-lypob-vuhem-firim-zyreg-sifan-havec-kunir-disun-hypif-sevys-pyfyp-gidil-pafoh-cixex",
+      "metadata" : [
+         "keeex self xutel-veruc-kigip-lypob-vuhem-firim-zyreg-sifan-havec-kunir-disun-hypif-sevys-pyfyp-gidil-pafoh-cixex, {main} xeeek",
+         "keeex self 2UHPAtPK9bHP6hggXcMpNmAXR6137fgZCqLzJir, {alg:sha224, enc:b58, recursive:1} xeeek",
+         "keeex name &quot;nextbooking.kxjson&quot;, {main} xeeek",
+         "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+         "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+         "keeex prop &quot;kx.time&quot;, &quot;2021-05-14T14:48:53Z&quot; xeeek",
+         "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+         "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+         "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12433118|c7b0b04332381e70a9b0e0e8cb6c5a9c116f8da55791f7cebae5fa108caa35c6|2021-05-14T14:48:38.038Z&quot; xeeek",
+         "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HOkxjkIx0JOQd4ZWcw1vwyFNsa25fMdJQhAUvsdr3vkNdFd4zSYOIobDZnGwgSHzV::S7Cii1:eCzP3nLyHxqYg=&quot;, {bitcoin} xeeek"
+      ]
+   },
+   "properties" : {
+      "booking" : {
+         "$ref" : "static.keeex.me/xecim-somot-rufym-ferig-suzin-vypov-buhof-kerum-fucon-dokik-fuvih-dahif-mulub-fygot-lirib-fubol-noxax"
+      },
+      "interchange" : {
+         "$ref" : "static.keeex.me/xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax"
+      }
+   },
+   "required" : [
+      "interchange",
+      "booking"
+   ],
+   "title" : "The booking data",
+   "type" : "object"
+}
