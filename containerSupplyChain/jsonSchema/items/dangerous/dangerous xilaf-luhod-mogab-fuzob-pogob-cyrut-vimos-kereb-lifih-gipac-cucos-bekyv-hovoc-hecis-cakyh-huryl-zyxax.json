@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xilaf-luhod-mogab-fuzob-pogob-cyrut-vimos-kereb-lifih-gipac-cucos-bekyv-hovoc-hecis-cakyh-huryl-zyxax",
+  "type": "object",
+  "title": "The dangerous item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "classe": {
+      "$anchor": "classe",
+      "type": "string",
+    },
+    "expectedQuantities": {
+      "$anchor": "expectedQuantities",
+      "type": "boolean",
+    },
+    "id": {
+      "$anchor": "id",
+      "type": "integer",
+    },
+    "limitedQuantities": {
+      "$anchor": "limitedQuantities",
+      "type": "boolean",
+    },
+    "limitedQuantity": {
+      "$anchor": "limitedQuantity",
+      "type": "boolean",
+    },
+    "marinePollutant": {
+      "$anchor": "marinePollutant",
+      "type": "boolean",
+    },
+    "packageNbr": {
+      "$anchor": "packageNbr",
+      "type": "integer",
+    },
+    "packingGroup": {
+      "$anchor": "packingGroup",
+      "type": "string",
+    },
+    "un": {
+      "$anchor": "un",
+      "type": "string"
+    },
+    "version": {
+      "$anchor": "version",
+      "type": "integer",
+    },
+    "weight": {
+      "$anchor": "weight",
+      "type": "integer",
+    }
+  }
+}
+/*keeex self xilaf-luhod-mogab-fuzob-pogob-cyrut-vimos-kereb-lifih-gipac-cucos-bekyv-hovoc-hecis-cakyh-huryl-zyxax, {main} xeeek
+keeex self 3afnhuhwiKDypmN6mEyEFTqyK3s22Z1vPB714or, {alg:sha224, enc:b58, recursive:1} xeeek
+keeex name "nextdangerous.json", {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex prop "kx.description", "" xeeek
+keeex prop "kx.time", "2021-05-12T15:30:38Z" xeeek
+keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek
+keeex prop "kx.licence", "Protected by KeeeX using KaaaS" xeeek
+keeex prop "afterBC", "BC|ETH.main|12420368|d0e0bb8469a29b0fcd5237e90dc14eee4e841724ce0a9cf181cfadd6871ec19e|2021-05-12T15:30:30.340Z" xeeek
+keeex signature "1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn", "HHtSzKDOF6lXeEdDwd!ve5sVNbzx:1XQ5vkS19:GLy0bUS8zcLVlFffOZyMVKJGw5PJN6Zj0Y4tjNX8:Yq8Doo8=", {bitcoin} xeeek*/

@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "zuzi-ntinen-cudi-bfudab-poru-hsalup-leti-nsehoh-polu-cbazec-dahy-rgogun-roke-hvusin-fato-ztymabf-exar",
+  "type": "object",
+  "title": "The cargo item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "arrivalConfirmationDate": {
+      "$anchor": "arrivalConfirmationDate",
+      "type": "string",
+      "title": "The arrival confirmation date"
+    },
+    "blIds": {
+      "$anchor": "blIds",
+      "type": "array",
+      "title": "The list of ids of bill of loadings"
+    },
+    "bookingReference": {
+      "$anchor": "bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "cargoMeasurements": {
+      "$anchor": "cargoMeasurements",
+      "type": "array",
+      "title": "The cargo measurements"
+    },
+    "cargoSeals": {
+      "$anchor": "cargoSeals",
+      "type": "array",
+      "title": "The list of cargo seals"
+    },
+    "createdBy": {
+      "$anchor": "createdBy",
+      "type": "string",
+      "title": "Created by"
+    },
+    "createdCommunity": {
+      "$anchor": "createdCommunity",
+      "type": "string",
+      "title": "Created community"
+    },
+    "createdDate": {
+      "$anchor": "createdDate",
+      "type": "string",
+      "title": "The created date"
+    },
+    "createdOrganization": {
+      "$anchor": "createdOrganization",
+      "type": "string",
+      "title": "Created organization"
+    },
+    "dangerous": {
+      "$anchor": "dangerous",
+      "type": "array",
+      "title": "The list of dangerous",
+      "items": {
+        "$ref": "./dangerous.json"
+      }
+    },
+    "description": {
+      "$anchor": "description",
+      "type": "string",
+      "title": "The description"
+    },
+    "domesticIndicator": {
+      "$anchor": "domesticIndicator",
+      "type": "boolean",
+      "title": "Domestic indicator"
+    },
+    "empty": {
+      "$anchor": "empty",
+      "type": "boolean",
+      "title": "Empty"
+    },
+    "fumigation": {
+      "$anchor": "fumigation",
+      "type": "object",
+      "title": "The fumigation"
+    },
+    "goodsDescription": {
+      "$anchor": "goodsDescription",
+      "type": "string",
+      "title": "The goods description"
+    },
+    "goodItems": {
+      "$anchor": "goodItems",
+      "type": "array",
+      "title": "The list of good items",
+      "items": {
+        "$ref": "./good.json"
+      }
+    },
+    "lastModifiedBy": {
+      "$anchor": "lastModifiedBy",
+      "type": "string",
+      "title": "Last modified by"
+    },
+    "lastModifiedCommunity": {
+      "$anchor": "lastModifiedCommunity",
+      "type": "string",
+      "title": "Last modified community"
+    },
+    "lastModifiedDate": {
+      "$anchor": "lastModifiedDate",
+      "type": "string",
+      "title": "The lastmodified date"
+    },
+    "lastModifiedOrganization": {
+      "$anchor": "lastModifiedOrganization",
+      "type": "string",
+      "title": "Last modified organization"
+    },
+    "measurement": {
+      "$anchor": "measurement",
+      "type": "array",
+      "title": "The list of measurements"
+    },
+    "netWeight": {
+      "$anchor": "netWeight",
+      "type": "integer",
+      "title": "The net weight"
+    },
+    "nonOperatedReefer": {
+      "$anchor": "nonOperatedReefer",
+      "type": "boolean",
+      "title": "Non operated reefer"
+    },
+    "id": {
+      "$anchor": "id",
+      "type": "integer",
+      "title": "The Id"
+    },
+    "inlandCarrierReference": {
+      "$anchor": "inlandCarrierReference",
+      "type": "string",
+      "title": "The inland carrier reference"
+    },
+    "ics": {
+      "$anchor": "ics",
+      "type": "object",
+      "title": "The ics"
+    },
+    "oversize": {
+      "$anchor": "oversize",
+      "type": "object",
+      "title": "The oversize object"
+    },
+    "packageCount": {
+      "$anchor": "packageCount",
+      "type": "integer",
+      "title": "The package count"
+    },
+    "packageTypeCode": {
+      "$anchor": "packageTypeCode",
+      "type": "string",
+      "title": "The package type code"
+    },
+    "preArrivalNotification": {
+      "$anchor": "preArrivalNotification",
+      "type": "boolean",
+      "title": "Pre arrival notification"
+    },
+    "rank": {
+      "$anchor": "rank",
+      "type": "integer",
+      "title": "The rank number"
+    },
+    "reference": {
+      "$anchor": "reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "reefer": {
+      "$anchor": "reefer",
+      "type": "object",
+      "title": "The reefer"
+    },
+    "seal": {
+      "$anchor": "seal",
+      "type": "array",
+      "title": "The list of seals"
+    },
+    "seqNumber": {
+      "$anchor": "seqNumber",
+      "type": "integer",
+      "title": "The sequence number"
+    },
+    "shippingOrderId": {
+      "$anchor": "shippingOrderId",
+      "type": "integer",
+      "title": "The shipping order id"
+    },
+    "shipperOwned": {
+      "$anchor": "shipperOwned",
+      "type": "boolean",
+      "title": "Shipper owned"
+    },
+    "status": {
+      "$anchor": "status",
+      "type": "string",
+      "title": "The status"
+    },
+    "tare": {
+      "$anchor": "tare",
+      "type": "integer",
+      "title": "The tare"
+    },
+    "terminalCode": {
+      "$anchor": "terminalCode",
+      "type": "string",
+      "title": "The terminal code"
+    },
+    "type": {
+      "$anchor": "type",
+      "type": "string",
+      "title": "The type"
+    },
+    "version": {
+      "$anchor": "version",
+      "type": "integer",
+      "title": "The version number"
+    },
+    "vgms": {
+      "$anchor": "vgms",
+      "type": "array",
+      "title": "The list of vgms"
+    }
+  }
+}

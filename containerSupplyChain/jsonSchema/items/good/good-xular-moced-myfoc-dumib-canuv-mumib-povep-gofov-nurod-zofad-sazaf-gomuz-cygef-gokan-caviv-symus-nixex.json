@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xular-moced-myfoc-dumib-canuv-mumib-povep-gofov-nurod-zofad-sazaf-gomuz-cygef-gokan-caviv-symus-nixex",
+  "type": "object",
+  "title": "The good item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "blId": {
+      "$anchor": "blId",
+      "type": "integer",
+      "title": "The bill of lading id"
+    },
+    "description": {
+      "$anchor": "description",
+      "type": "string",
+      "title": "The description"
+    },
+    "grossWeight": {
+      "$anchor": "grossWeight",
+      "type": "integer",
+      "title": "The gross weight"
+    },
+    "id": {
+      "$anchor": "id",
+      "type": "integer",
+      "title": "The good id"
+    },
+    "packageTypeCode": {
+      "$anchor": "packageTypeCode",
+      "type": "string",
+      "title": "The code of package type"
+    },
+    "quantity": {
+      "$anchor": "quantity",
+      "type": "integer",
+      "title": "The quantity"
+    },
+    "version": {
+      "$anchor": "version",
+      "type": "integer"
+    }
+  }
+}
+/*keeex self xular-moced-myfoc-dumib-canuv-mumib-povep-gofov-nurod-zofad-sazaf-gomuz-cygef-gokan-caviv-symus-nixex, {main} xeeek
+keeex self 1kXBG4gu98aGbgiPPy2pby5agjrQ2jn9gXJ8s9J, {alg:sha224, enc:b58, recursive:1} xeeek
+keeex name "nextgood.json", {main} xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex prop "kx.description", "" xeeek
+keeex prop "kx.time", "2021-05-12T15:23:23Z" xeeek
+keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek
+keeex prop "kx.licence", "Protected by KeeeX using KaaaS" xeeek
+keeex prop "afterBC", "BC|ETH.main|12420338|56addb002934cd2b37685172629517bcab7d194a3e3f7a148ed5cdf37034a23b|2021-05-12T15:23:18.110Z" xeeek
+keeex signature "1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn", "G5NCjlFy65GhKx8kGPLTJXy:vg5jEmigOgSgkkxoFP4ULLEV5afDdsWDZkk:HZ6F6ARpo3ylRt3!:U1yEAm8CC0=", {bitcoin} xeeek*/
