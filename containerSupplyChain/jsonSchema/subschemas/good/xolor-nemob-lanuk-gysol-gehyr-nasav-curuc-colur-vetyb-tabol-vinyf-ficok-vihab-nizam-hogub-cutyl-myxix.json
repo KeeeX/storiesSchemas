@@ -1,0 +1,55 @@
+{
+   "$comment" : "",
+   "$id" : "static.keeeex.me/xolor-nemob-lanuk-gysol-gehyr-nasav-curuc-colur-vetyb-tabol-vinyf-ficok-vihab-nizam-hogub-cutyl-myxix",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "additionalProperties" : true,
+   "description" : "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+   "kxdata" : {
+      "idx" : "xolor-nemob-lanuk-gysol-gehyr-nasav-curuc-colur-vetyb-tabol-vinyf-ficok-vihab-nizam-hogub-cutyl-myxix",
+      "metadata" : [
+         "keeex self xolor-nemob-lanuk-gysol-gehyr-nasav-curuc-colur-vetyb-tabol-vinyf-ficok-vihab-nizam-hogub-cutyl-myxix, {main} xeeek",
+         "keeex self 36jditfhYx2LPrUWFMeCv38hU6cTEHz1vLgq6dw, {alg:sha224, enc:b58, recursive:1} xeeek",
+         "keeex name &quot;good.kxjson&quot;, {main} xeeek",
+         "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+         "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+         "keeex prop &quot;kx.time&quot;, &quot;2021-05-14T09:04:03Z&quot; xeeek",
+         "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+         "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+         "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12431577|2a073386c35fa9a0afdefc57db55573ba0ddd99349c798e2fc557817486fc290|2021-05-14T09:03:47.951Z&quot; xeeek",
+         "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HDu52bhwF595HDgdMYnTNon0Cool12a7bIVRhZtFbr:z8ZDU5MxkgCnV6NDLh3cZK2VA75Ctjf3y7mb2yctwYGM=&quot;, {bitcoin} xeeek"
+      ]
+   },
+   "properties" : {
+      "blId" : {
+         "description" : "The bill of lading id",
+         "type" : "integer"
+      },
+      "description" : {
+         "description" : "The description",
+         "type" : "string"
+      },
+      "grossWeight" : {
+         "description" : "The gross weight",
+         "type" : "integer"
+      },
+      "id" : {
+         "description" : "The good id",
+         "type" : "integer"
+      },
+      "packageTypeCode" : {
+         "description" : "The code of package type",
+         "type" : "string"
+      },
+      "quantity" : {
+         "description" : "The quantity",
+         "type" : "integer"
+      },
+      "version" : {
+         "description" : "The version",
+         "type" : "integer"
+      }
+   },
+   "required" : [],
+   "title" : "Subschema for Good",
+   "type" : "object"
+}
