@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xozil-cipib-zihas-tumoc-tiduz-puhys-mityc-bymad-zevik-badig-camof-riveb-zepis-cogul-lykus-fobum-haxex.json",
+  "type": "object",
+  "title": "The discharge list file",
+  "required": [
+    "interchange",
+    "dischargeList"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "static.keeex.me/xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax.json"
+    },
+    "dischargeList": {
+      "$ref": "static.keeex.me/xepit-hycub-volub-kyvom-bahup-hariv-mever-vagyf-duzup-milot-fyzyg-gyguv-tehoc-dupih-kysez-vyhyg-kexax.json"
+    }
+  },
+  "kxdata": {
+    "idx": "xozil-cipib-zihas-tumoc-tiduz-puhys-mityc-bymad-zevik-badig-camof-riveb-zepis-cogul-lykus-fobum-haxex",
+    "metadata": [
+      "keeex self xozil-cipib-zihas-tumoc-tiduz-puhys-mityc-bymad-zevik-badig-camof-riveb-zepis-cogul-lykus-fobum-haxex, {main} xeeek",
+      "keeex self 3big3Bjp6v8EEqSoyxN12gfYkmvxb9RKr9fUsb1, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newdischargelist.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12459647|da7aeebeaaf845604dd142650a3acad4961f537b9c20f7b03b05abc56865e312|2021-05-18T17:11:51.673Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HPfS6+9BF7WNHDjzZrRlomOnSozZ8O6D0U0+qi9DU9n3SsvQGy24/71CRJ8W0TbLHUOjmBGUucQybypV199zwqg=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T17:11:54.882Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;506475341a9ab03348cd2f6dda30876949117b4428c23a42eaea5786f73349fa&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

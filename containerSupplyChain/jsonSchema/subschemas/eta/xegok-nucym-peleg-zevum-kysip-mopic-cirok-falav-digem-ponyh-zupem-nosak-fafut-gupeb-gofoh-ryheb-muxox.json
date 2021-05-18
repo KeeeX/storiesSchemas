@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xegok-nucym-peleg-zevum-kysip-mopic-cirok-falav-digem-ponyh-zupem-nosak-fafut-gupeb-gofoh-ryheb-muxox.json",
+  "type": "object",
+  "title": "The ETA item",
+  "required": [
+    "bookingReference",
+    "containerNumber",
+    "eta"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "type": "string",
+      "description": "The booking reference"
+    },
+    "containerNumber": {
+      "type": "string",
+      "description": "The container number"
+    },
+    "eta": {
+      "type": "string",
+      "description": "The estimated time of arrival"
+    },
+    "name": {
+      "type": "string",
+      "description": "The file name"
+    },
+    "portOfDestination": {
+      "type": "string",
+      "description": "The port of destination"
+    }
+  },
+  "kxdata": {
+    "idx": "xegok-nucym-peleg-zevum-kysip-mopic-cirok-falav-digem-ponyh-zupem-nosak-fafut-gupeb-gofoh-ryheb-muxox",
+    "metadata": [
+      "keeex self xegok-nucym-peleg-zevum-kysip-mopic-cirok-falav-digem-ponyh-zupem-nosak-fafut-gupeb-gofoh-ryheb-muxox, {main} xeeek",
+      "keeex self 2NMc8ef3A1EM1L4FXgkyWr1TkPv7Xo7KHaMhEJH, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;neweta.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12459069|56e410619f5e13add226954eebda529993a5fbd715ad638f0476a08bb148782a|2021-05-18T14:57:21.179Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HM+GSiwilhPGMIeWnEE02WJZOzKkdSn7lO1OGFGiyURcagqyX4WHd/VorA1vqV7xuZAScZaBXlUKkLBJIJnA5hg=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T14:57:33.293Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;2a287a6ad756477eae15172a47e9b84ead47d0cf176307068f51cc4f6f587309&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

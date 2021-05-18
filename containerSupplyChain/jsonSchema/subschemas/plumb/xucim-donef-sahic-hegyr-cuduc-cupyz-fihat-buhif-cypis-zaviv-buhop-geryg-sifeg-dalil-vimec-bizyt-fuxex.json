@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xucim-donef-sahic-hegyr-cuduc-cupyz-fihat-buhif-cypis-zaviv-buhop-geryg-sifeg-dalil-vimec-bizyt-fuxex.json",
+  "type": "object",
+  "title": "The plumb item",
+  "required": [
+    "bookingReference",
+    "containerNumber",
+    "reference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "type": "string",
+      "description": "The booking reference"
+    },
+    "containerNumber": {
+      "type": "string",
+      "description": "The container number"
+    },
+    "reference": {
+      "type": "string",
+      "description": "The plumb reference"
+    },
+    "name": {
+      "type": "string",
+      "description": "The file name"
+    }
+  },
+  "kxdata": {
+    "idx": "xucim-donef-sahic-hegyr-cuduc-cupyz-fihat-buhif-cypis-zaviv-buhop-geryg-sifeg-dalil-vimec-bizyt-fuxex",
+    "metadata": [
+      "keeex self xucim-donef-sahic-hegyr-cuduc-cupyz-fihat-buhif-cypis-zaviv-buhop-geryg-sifeg-dalil-vimec-bizyt-fuxex, {main} xeeek",
+      "keeex self 3c3xZzRv41ct6fLTZwWwrza4WQF2BNYinVetBpq, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newplumb.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12458994|8f6c565edb9cd469bd8a55831b4963725445fcaf909ec047cee63e0f4ff2894d|2021-05-18T14:42:23.772Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G3Z0wxhUNuQ/64xmuzRJZvt40EIAv2SXgRIgBPMeO4fGbRmVjFTWJHRcqnOc3wxCfhVexvFi+3XfqU9/DPGb07E=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T14:42:24.713Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;3db4dad15f310213ff08f9702c2e6616bfe291ab4e6c437c97ab0507d1cce63d&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

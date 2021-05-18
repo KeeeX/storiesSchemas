@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xepag-cozup-lidik-pasum-hucir-sevis-kogor-rafek-mifum-vuvuv-fonec-segav-negyc-sokar-rinah-gymer-fuxix.json",
+  "type": "object",
+  "title": "The cargo pack item",
+  "required": [
+    "cargos",
+    "header"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cargos": {
+      "type": "array",
+      "title": "The list of cargos",
+      "items": {
+        "$ref": "static.keeex.me/xisil-pudyn-kogul-kysyv-semol-toviz-vusyl-rucun-rizen-hytuf-fepup-beful-caboz-tyled-pucav-difec-pixyx.json"
+      }
+    },
+    "header": {
+      "$ref": "static.keeex.me/xilob-gykur-hymob-hypyc-zabar-cucan-fecan-gehos-zukut-rufez-lukom-fetyz-sopih-zubur-remeb-fysap-buxux.json"
+    },
+    "route": {
+      "$ref": "static.keeex.me/xepil-tybal-tuvub-zorub-hykec-cusim-sagoc-merob-murin-lehod-zateb-sysyh-myrak-remup-gagyz-zetos-bexex.json"
+    },
+    "traders": {
+      "type": "array",
+      "title": "The list of traders",
+      "items": {
+        "$ref": "static.keeex.me/xikaf-pokim-tokyd-bireh-sotun-hozyc-lavuv-dahah-tyhol-vysih-hubuh-miroc-manyt-kacuv-zafuc-mabod-tyxyx.json"
+      }
+    }
+  },
+  "kxdata": {
+    "idx": "xepag-cozup-lidik-pasum-hucir-sevis-kogor-rafek-mifum-vuvuv-fonec-segav-negyc-sokar-rinah-gymer-fuxix",
+    "metadata": [
+      "keeex self xepag-cozup-lidik-pasum-hucir-sevis-kogor-rafek-mifum-vuvuv-fonec-segav-negyc-sokar-rinah-gymer-fuxix, {main} xeeek",
+      "keeex self 2FFqmoAo5owtTjsYHrWssbGeSRQB4MFANm8ZF8P, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newcargo_pack.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12458986|fc38bf7313b1b32bfc285a519dda3567487af8c53368a829fcb8aad05ddf3f44|2021-05-18T14:40:10.069Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;Gxj4F+GbQgQSiMFV99PlHmVPR5OmDhQE9HjtH+iLSMDNkurHBGTRezLsq7Mo3A/fVLTNNICFESiZtvBq5vYtwpY=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T14:40:11.507Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;1d9e9fb67a1715c60e3eb9029040a37d4a0ae4aaaf06a136c6b071659a74fa44&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

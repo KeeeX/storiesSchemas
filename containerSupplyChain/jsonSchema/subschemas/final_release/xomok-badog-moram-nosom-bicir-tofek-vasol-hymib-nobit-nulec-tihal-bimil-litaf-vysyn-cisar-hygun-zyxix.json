@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xomok-badog-moram-nosom-bicir-tofek-vasol-hymib-nobit-nulec-tihal-bimil-litaf-vysyn-cisar-hygun-zyxix.json",
+  "type": "object",
+  "description": "The final release item",
+  "required": [
+    "header"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "header": {
+      "$ref": "static.keee.me/xilob-gykur-hymob-hypyc-zabar-cucan-fecan-gehos-zukut-rufez-lukom-fetyz-sopih-zubur-remeb-fysap-buxux.json"
+    },
+    "cargo": {
+      "$ref": "static.keeex.me/xisil-pudyn-kogul-kysyv-semol-toviz-vusyl-rucun-rizen-hytuf-fepup-beful-caboz-tyled-pucav-difec-pixyx.json"
+    },
+    "customsdeclaration": {
+      "type": "array",
+      "description": "The list of custom declarations",
+      "items": {
+        "$ref": "static.keeex.me/xovov-tafis-cofik-rymom-mihur-kedoh-zomiv-cigum-patyv-pagon-nukop-magup-zogaz-zotiz-gibir-rysef-roxix.json"
+      }
+    },
+    "exportRoute": {
+      "$ref": "static.keeex.me/xepil-tybal-tuvub-zorub-hykec-cusim-sagoc-merob-murin-lehod-zateb-sysyh-myrak-remup-gagyz-zetos-bexex.json"
+    },
+    "traders": {
+      "type": "array",
+      "description": "The list of traders",
+      "items": {
+        "$ref": "static.keeex.me/xikaf-pokim-tokyd-bireh-sotun-hozyc-lavuv-dahah-tyhol-vysih-hubuh-miroc-manyt-kacuv-zafuc-mabod-tyxyx.json"
+      }
+    }
+  },
+  "kxdata": {
+    "idx": "xomok-badog-moram-nosom-bicir-tofek-vasol-hymib-nobit-nulec-tihal-bimil-litaf-vysyn-cisar-hygun-zyxix",
+    "metadata": [
+      "keeex self xomok-badog-moram-nosom-bicir-tofek-vasol-hymib-nobit-nulec-tihal-bimil-litaf-vysyn-cisar-hygun-zyxix, {main} xeeek",
+      "keeex self 2q1do3KD4VKFVfJecNvtZqwEvRxTKcvy8Uy8EVH, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newfinalrelease.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12459059|1467b2f56dc13e5d9603103995cd518b73ed02582d701077353085e14336d118|2021-05-18T14:55:29.095Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G4pmjVGAlCa5qyK2znkpR1Gl5+7pY1jVFJyogIdOtjswzrKWBQIRm0I7hCdU17LqvptSi/bBVeOZaa1eXqyCQvk=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T14:55:30.175Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;ae569161a136a7d8b82c05596c7d03f8c245da71ba71c5a99bab9783d83ba616&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

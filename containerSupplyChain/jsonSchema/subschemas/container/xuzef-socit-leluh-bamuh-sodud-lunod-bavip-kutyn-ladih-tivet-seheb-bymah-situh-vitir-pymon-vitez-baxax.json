@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xuzef-socit-leluh-bamuh-sodud-lunod-bavip-kutyn-ladih-tivet-seheb-bymah-situh-vitir-pymon-vitez-baxax.json",
+  "type": "object",
+  "title": "The container item",
+  "required": [
+    "bookingReference",
+    "number"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "type": "string",
+      "description": "The booking reference"
+    },
+    "number": {
+      "type": "string",
+      "description": "The container number"
+    },
+    "name": {
+      "type": "string",
+      "description": "The file name"
+    }
+  },
+  "kxdata": {
+    "idx": "xuzef-socit-leluh-bamuh-sodud-lunod-bavip-kutyn-ladih-tivet-seheb-bymah-situh-vitir-pymon-vitez-baxax",
+    "metadata": [
+      "keeex self xuzef-socit-leluh-bamuh-sodud-lunod-bavip-kutyn-ladih-tivet-seheb-bymah-situh-vitir-pymon-vitez-baxax, {main} xeeek",
+      "keeex self 34UEVBggK3GewqfGSjhCzh6habnY6UBKdehTi8s, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newcontainer.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12459091|33761921d7045f272663f725b38f6c203e4b27bbbe0f64c55acc9592795de745|2021-05-18T15:03:36.568Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HG2FqdBhzECcggB75q2yH14fvvcKLGeM4RAGeuGNLG4dTr/W52sRqNv/wxnDQpi3l3bT9ill6lAQvkefP1iKA3k=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T15:03:41.657Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;cd005715c631ab5c88571c13226bbe773713007ad29118c0d6a5aa836d70c616&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

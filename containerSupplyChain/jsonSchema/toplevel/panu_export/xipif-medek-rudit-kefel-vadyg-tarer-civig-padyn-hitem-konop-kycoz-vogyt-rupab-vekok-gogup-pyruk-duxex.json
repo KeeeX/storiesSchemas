@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "xstatic.keeex.me/xipif-medek-rudit-kefel-vadyg-tarer-civig-padyn-hitem-konop-kycoz-vogyt-rupab-vekok-gogup-pyruk-duxex.json",
+  "type": "object",
+  "title": "The panu export file",
+  "required": [
+    "interchange",
+    "cargo"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "static.keeex.me/xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax.json"
+    },
+    "cargo": {
+      "$ref": "static.keeex.me/xisil-pudyn-kogul-kysyv-semol-toviz-vusyl-rucun-rizen-hytuf-fepup-beful-caboz-tyled-pucav-difec-pixyx.json"
+    }
+  },
+  "kxdata": {
+    "idx": "xipif-medek-rudit-kefel-vadyg-tarer-civig-padyn-hitem-konop-kycoz-vogyt-rupab-vekok-gogup-pyruk-duxex",
+    "metadata": [
+      "keeex self xipif-medek-rudit-kefel-vadyg-tarer-civig-padyn-hitem-konop-kycoz-vogyt-rupab-vekok-gogup-pyruk-duxex, {main} xeeek",
+      "keeex self 3LbBgwD9oCA4ERreixTnbuhnTBooTikpq43Bo8s, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newpanuexport.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12459727|e2653ede79faa0d51169c87245b266640ce3bec2fa2d22d564cc39304e9a826d|2021-05-18T17:28:55.556Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HLSdOcWdDPR8HVPamSgHBrBABIUEVoJxGC6iarW46J1MdeLDO/muRmSbl6DMXEYhFr+5nQlaNpVe/zM86HpvUf4=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T17:28:58.489Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;9ab6ca376796d5eb34c6381abf5120eb2f3c13030114f5a829e6b54a6e368b6b&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

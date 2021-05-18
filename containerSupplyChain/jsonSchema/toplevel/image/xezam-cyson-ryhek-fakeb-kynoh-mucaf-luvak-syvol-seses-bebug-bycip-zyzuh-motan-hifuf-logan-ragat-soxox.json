@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xezam-cyson-ryhek-fakeb-kynoh-mucaf-luvak-syvol-seses-bebug-bycip-zyzuh-motan-hifuf-logan-ragat-soxox.json",
+  "type": "object",
+  "title": "The image file",
+  "required": [
+    "interchange",
+    "image"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "static.keeex.me/xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax.json
+    },
+    "image": {
+      "$ref": "static.keeex.me/xeher-lipoc-nopab-sokul-sokun-macor-timab-macev-gafyv-sudor-lipyc-favog-rinun-gecil-nofec-murih-cexux.json"
+    }
+  }
+}
+keeex self xezam-cyson-ryhek-fakeb-kynoh-mucaf-luvak-syvol-seses-bebug-bycip-zyzuh-motan-hifuf-logan-ragat-soxox, {main} xeeek
+keeex self 2yLm6tJ3RakhsdbAEnd8HZmbSZenb1boL1Xp4A3, {alg:sha224,enc:b58,recursive:1} xeeek
+keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek
+keeex prop "kx.licence", "Protected by KeeeX using KaaaS" xeeek
+keeex name "newimage.json", {main} xeeek
+keeex prop "kx.description", "" xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex prop "afterBC", "BC|ETH.main|12459683|6ce773cc5253b593989cf163949da3c7a0ce2481e0c8fc5bb575ad62e25bc463|2021-05-18T17:20:24.286Z" xeeek
+keeex signature "1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn", "HNZ7wBw+BZTGLzW78L4ZtijWRJial1gfkUjXOW6nGAXt8DK0HUNnxDna5H7ryJZ42B3/1q7oqKNBlC+fP4oe7DM=", {bitcoin} xeeek
+keeex prop "kx.time", "2021-05-18T17:20:33.118Z" xeeek
+keeex prop "kx.originHash", "f7c19b8f1618cf3f0d2e9eb3c9c9a076dd4506dab766259e653e2746873aca12", {alg:sha256} xeeek

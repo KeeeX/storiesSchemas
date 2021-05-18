@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xuvit-kiluh-hycel-decuf-cybeh-dipun-raroz-cotyb-lymut-lugap-gurov-pyzev-cigof-cyloh-zycen-fesip-hexex.json",
+  "type": "object",
+  "title": "The announcement reference item",
+  "required": [
+    "announcementReference"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "announcementReference": {
+      "type": "string",
+      "description": "The announcement reference"
+    },
+    "trader": {
+      "type": "string",
+      "description": "The trader"
+    }
+  },
+  "kxdata": {
+    "idx": "xuvit-kiluh-hycel-decuf-cybeh-dipun-raroz-cotyb-lymut-lugap-gurov-pyzev-cigof-cyloh-zycen-fesip-hexex",
+    "metadata": [
+      "keeex self xuvit-kiluh-hycel-decuf-cybeh-dipun-raroz-cotyb-lymut-lugap-gurov-pyzev-cigof-cyloh-zycen-fesip-hexex, {main} xeeek",
+      "keeex self 2eoCEa5pKQJDYmR5t2Bqt3E9aYL5h4H741HHFWb, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;new announcement_reference.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12458922|2c786fffb34e9c242d3806bdcb533f03972e854997bdd07d59c41726b095fdbd|2021-05-18T14:26:34.580Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;GyOiVHuS63HcXXd5fB0jJquS71makdPdgyXDda+xO6XyrAfLlMeEN2XEQu1sUfOuOJW/yi1kPXQF8a4ZSiKgjgE=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T14:28:18.437Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;73be5776e6ddf3eacd3b65675604e2a60e7c5eff6ee2a2ccb7ac688389ac338d&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

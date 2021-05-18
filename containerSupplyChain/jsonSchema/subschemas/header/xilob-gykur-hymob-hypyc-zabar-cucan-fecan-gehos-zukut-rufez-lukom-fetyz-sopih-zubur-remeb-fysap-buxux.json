@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xilob-gykur-hymob-hypyc-zabar-cucan-fecan-gehos-zukut-rufez-lukom-fetyz-sopih-zubur-remeb-fysap-buxux.json",
+  "type": "object",
+  "title": "The header item",
+  "required": [
+    "bookingReference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "type": "string",
+      "description": "The booking reference"
+    },
+    "carrierTraderCode": {
+      "type": "string",
+      "description": "The carrier trader code"
+    },
+    "direction": {
+      "type": "string",
+      "description": "The direction"
+    },
+    "shippingAgentTraderCode": {
+      "type": "string",
+      "description": "The shipping agent trader code"
+    },
+    "shippingAgentTraderLabel": {
+      "type": "string",
+      "description": "The shipping agent trader label"
+    },
+    "statusDate": {
+      "type": "string",
+      "description": "The status date"
+    },
+    "terminalOperatorTraderCode": {
+      "type": "string",
+      "description": "The terminal operator trader code"
+    },
+    "terminalOperatorTraderLabel": {
+      "type": "string",
+      "description": "The terminal operator trader label"
+    },
+    "terminalLocation": {
+      "type": "string",
+      "description": "The terminal location"
+    }
+  },
+  "kxdata": {
+    "idx": "xilob-gykur-hymob-hypyc-zabar-cucan-fecan-gehos-zukut-rufez-lukom-fetyz-sopih-zubur-remeb-fysap-buxux",
+    "metadata": [
+      "keeex self xilob-gykur-hymob-hypyc-zabar-cucan-fecan-gehos-zukut-rufez-lukom-fetyz-sopih-zubur-remeb-fysap-buxux, {main} xeeek",
+      "keeex self 36vYTnzLM6VYe5oaSWC1DmNfQ2ef4SouqPMtqn1, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newheader.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12458966|c1f2926951f7db641d1452009de87d5e02ed14e4253590b5ed73ba0cfa45b46e|2021-05-18T14:35:54.745Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HNc6gOTaxcSh5EQ2SYGZt4mp+3j0h4R5uprx6UWh7Yv+YEn+8j9l3Sa4ocF4W3DBFkeGucDCzgO6I/MLYhsGAgQ=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T14:36:27.101Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;aa58a6af0b6567f2d7de6cb8fe6b761cd1e8dbd77a5f0dac1f474fe056c240d1&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

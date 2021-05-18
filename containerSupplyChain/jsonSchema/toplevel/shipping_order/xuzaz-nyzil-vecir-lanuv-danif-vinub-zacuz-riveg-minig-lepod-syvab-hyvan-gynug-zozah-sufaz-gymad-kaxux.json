@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xuzaz-nyzil-vecir-lanuv-danif-vinub-zacuz-riveg-minig-lepod-syvab-hyvan-gynug-zozah-sufaz-gymad-kaxux.json,
+  "type": "object",
+  "title": "The shipping order file",
+  "required": [
+    "interchange",
+    "shippingOrder"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "static.keeex.me/xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax.json"
+    },
+    "shippingOrder": {
+      "$ref": "static.keeex.me/xunis-sokyg-pigyb-papot-bosab-razib-macig-tuleg-husyv-sikor-vyfos-pamam-negod-gitak-ducuh-gedig-guxex.json"
+    }
+  }
+}
+keeex self xuzaz-nyzil-vecir-lanuv-danif-vinub-zacuz-riveg-minig-lepod-syvab-hyvan-gynug-zozah-sufaz-gymad-kaxux, {main} xeeek
+keeex self 2E5LvF8uMzGnoN9Pj8v61frBgEQ3yUeafTXGPTK, {alg:sha224,enc:b58,recursive:1} xeeek
+keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek
+keeex prop "kx.licence", "Protected by KeeeX using KaaaS" xeeek
+keeex name "newshippingorder.json", {main} xeeek
+keeex prop "kx.description", "" xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex prop "afterBC", "BC|ETH.main|12459149|54ef39d25c38d87dc8c6ac5223cad797a6a72e67d268714d167cba511b302bff|2021-05-18T15:21:00.943Z" xeeek
+keeex signature "1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn", "Gy+M8Y8y/8SGc5rmUJmvOKCEMEtkc9rlGunucszINEQxpoCpG5T1GblZBLYPwM1dOdnMEnzE0EXig2AXj1B9MvY=", {bitcoin} xeeek
+keeex prop "kx.time", "2021-05-18T15:21:10.636Z" xeeek
+keeex prop "kx.originHash", "22e9fb10f2f272999612be11ff0c1a6041cb1e0048341d89e24a8f7180de6662", {alg:sha256} xeeek

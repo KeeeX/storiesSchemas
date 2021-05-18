@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xumid-liheh-paser-zyhiv-pyvyc-pohit-suhyp-rugic-lofad-noval-nozok-cityk-natyl-cehyk-bysul-kasez-dexax.jsonx",
+  "type": "object",
+  "title": "The link file anchoring a container to the booking",
+  "required": [
+    "interchange",
+    "container"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "allOf": [
+        {
+          "$ref": "static.keeex.me/xidod-rofyc-codih-gylum-vaduz-hinyd-rydoh-dibyh-rorod-lolyh-zehov-ceror-pukib-zubih-cuvip-fityn-cixax.json"
+        },
+        {
+          "properties": {
+            "action": {
+              "type": "string",
+              "title": "The action",
+              "const": "LINK"
+            }
+          }
+        }
+      ]
+    },
+    "container": {
+      "$ref": "static.keeex.me/xuzef-socit-leluh-bamuh-sodud-lunod-bavip-kutyn-ladih-tivet-seheb-bymah-situh-vitir-pymon-vitez-baxax.json"
+    }
+  },
+  "kxdata": {
+    "idx": "xumid-liheh-paser-zyhiv-pyvyc-pohit-suhyp-rugic-lofad-noval-nozok-cityk-natyl-cehyk-bysul-kasez-dexax",
+    "metadata": [
+      "keeex self xumid-liheh-paser-zyhiv-pyvyc-pohit-suhyp-rugic-lofad-noval-nozok-cityk-natyl-cehyk-bysul-kasez-dexax, {main} xeeek",
+      "keeex self 1nbuyTWyJEXdXzM2pSdGvq3KmrcRq4WNVqoALdo, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newlinkbooking.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12459714|1eeb2915f4648aaa5833d09271b1b6e9319e05352055d96bc42bf2e0d9b4c49b|2021-05-18T17:26:30.681Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G7SvfIDYP0QVQjs2a37HxNGm5drZ4bwFkSE25EdWCEEv8krK3aqCp86z1kjSCkRPQ/4vaNa7eN6HIJ/L2m80+/k=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T17:26:37.583Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;8abf3c7828ee19763c815567708ab2241632dd4b1d24a4f4ccca8e4be6aaa566&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

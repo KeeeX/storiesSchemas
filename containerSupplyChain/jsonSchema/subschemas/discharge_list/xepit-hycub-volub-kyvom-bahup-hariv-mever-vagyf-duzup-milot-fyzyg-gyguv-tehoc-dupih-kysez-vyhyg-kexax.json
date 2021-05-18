@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xepit-hycub-volub-kyvom-bahup-hariv-mever-vagyf-duzup-milot-fyzyg-gyguv-tehoc-dupih-kysez-vyhyg-kexax.json",
+  "type": "object",
+  "title": "The discharge list item",
+  "required": [
+    "cargos"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "cargos": {
+      "type": "array",
+      "description": "The list of cargos",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "static.keeex.me/xisil-pudyn-kogul-kysyv-semol-toviz-vusyl-rucun-rizen-hytuf-fepup-beful-caboz-tyled-pucav-difec-pixyx.json"
+          },
+          {
+            "required": [
+              "reference"
+            ]
+          }
+        ]
+      }
+    },
+    "carriageIdentification": {
+      "type": "string",
+      "description": "The carriage identification"
+    },
+    "carriageReference": {
+      "type": "string",
+      "description": "The carriage reference"
+    },
+    "eta": {
+      "type": "string",
+      "description": "The estimated time of arrival"
+    },
+    "etd": {
+      "type": "string",
+      "description": "The estimated time of delivery"
+    },
+    "inlandTransportStatus": {
+      "type": "string",
+      "description": "The inland transport status"
+    },
+    "inlandCarrierTraderCode": {
+      "type": "string",
+      "description": "The inland carrier trader code"
+    },
+    "portOfDischargeCode": {
+      "type": "string",
+      "description": "The port of discharge code"
+    },
+    "portOfLoadingCode": {
+      "type": "string",
+      "description": "The port of loading code"
+    },
+    "terminalCode": {
+      "type": "string",
+      "description": "The terminal code"
+    },
+    "transportMode": {
+      "type": "string",
+      "description": "The transport mode"
+    }
+  },
+  "kxdata": {
+    "idx": "xepit-hycub-volub-kyvom-bahup-hariv-mever-vagyf-duzup-milot-fyzyg-gyguv-tehoc-dupih-kysez-vyhyg-kexax",
+    "metadata": [
+      "keeex self xepit-hycub-volub-kyvom-bahup-hariv-mever-vagyf-duzup-milot-fyzyg-gyguv-tehoc-dupih-kysez-vyhyg-kexax, {main} xeeek",
+      "keeex self 1W74cyTjiJyYKcXZq6HUVi2GbyLEtbmydnWRZ8d, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newdischargelist.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12459087|1b74c4f27d41f8cd9450a3ca1ad9ad723240e1f22efbb5daa0aa2814f7b8d957|2021-05-18T15:01:15.361Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G7ypompUshH2cvRXbo9v70/5zx5OAAZL3aH9sH3eqBI8dXPnIHaxunsPaoruLTRscYhhuSJzy3bEU1SeAVV0ppo=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-18T15:01:35.084Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;2de3ebf2baec7b2f044be991320a419fa9843b12d0d1ede60e0948014330776f&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}
