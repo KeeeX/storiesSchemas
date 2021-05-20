@@ -1,0 +1,133 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "KeeeX Timestamp server",
+    "description": "KeeeX Timestamp Server\n======================\n\nOverview\n--------\nProvide RFC3161 timestamp certificates.\nThe service requires authorization in the form of an API key.\n",
+    "version": "1.0.15 - xevar-teden-dedoz-nusef-ruzyl-zizev-zohon-fibuk-tebag-toryr-kuzav-bahir-vihat-kityr-kazem-nihog-lyxyx"
+  },
+  "components": {
+    "securitySchemes": {
+      "headerAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "Authorization"
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "https://timestamp.keeex.net",
+      "description": "KeeeX Production TS server"
+    },
+    {
+      "url": "http://localhost:3000",
+      "description": "Local dev server"
+    }
+  ],
+  "paths": {
+    "/api/v1/timestamp": {
+      "post": {
+        "summary": "Request a timestamp",
+        "description": "Request a timestamp from the server.\n",
+        "security": [
+          {
+            "headerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "hex"
+                ],
+                "properties": {
+                  "hex": {
+                    "type": "string",
+                    "description": "Hexadecimal representation of the sha256 hash of the data. One of \"hex\" or \"idx\" must be provided."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The TSR file",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/timestamp": {
+      "post": {
+        "summary": "Request a timestamp",
+        "description": "Request a timestamp from the server.\n",
+        "deprecated": true,
+        "security": [
+          {
+            "headerAuth": []
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": [
+                  "hex"
+                ],
+                "properties": {
+                  "hex": {
+                    "type": "string",
+                    "description": "Hexadecimal representation of the sha256 hash of the data. One of \"hex\" or \"idx\" must be provided."
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "The TSR file",
+            "content": {
+              "application/octet-stream": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "tags": [],
+  "kxdata": {
+    "idx": "xevar-teden-dedoz-nusef-ruzyl-zizev-zohon-fibuk-tebag-toryr-kuzav-bahir-vihat-kityr-kazem-nihog-lyxyx",
+    "metadata": [
+      "keeex self xevar-teden-dedoz-nusef-ruzyl-zizev-zohon-fibuk-tebag-toryr-kuzav-bahir-vihat-kityr-kazem-nihog-lyxyx, {main} xeeek",
+      "keeex self 1nUSioWEM3e2uDM7makb8suu8DRFcK14qcegZPk, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;nexttimestamp.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12463435|40f8bb550accd14f77af9cb5b2489c6381841e139ca3018a94348a8dcf09f85a|2021-05-19T07:18:31.040Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HHCNS1pLQjF2Vk6FoRuV3eY+62+dpbS6lc+Avaj+TieIEE56NujJDwXivK1MA5fMZUplmD6t9vh1mrs4d/4J578=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-19T07:18:31.786Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;f8a3b828fd09acbae49a0be1ca5a500f997ed15779b24a3f2677dbfb119abd8f&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

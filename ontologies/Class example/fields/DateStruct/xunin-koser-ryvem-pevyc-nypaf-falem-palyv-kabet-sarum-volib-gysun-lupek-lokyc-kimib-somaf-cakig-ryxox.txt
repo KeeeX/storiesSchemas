@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xunin-koser-ryvem-pevyc-nypaf-falem-palyv-kabet-sarum-volib-gysun-lupek-lokyc-kimib-somaf-cakig-ryxox.json",
+  "type": "object",
+  "title": "DateStruct",
+  "description": "The dateStruct field",
+  "required": [
+    "year",
+    "month"
+  ],
+  "additionalProperties": false,
+  "default": {
+    "year": 1970,
+    "month": 1,
+    "day": 1
+  },
+  "properties": {
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 12
+    },
+    "day": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 31
+    }
+  },
+  "kxdata": {
+    "idx": "xunin-koser-ryvem-pevyc-nypaf-falem-palyv-kabet-sarum-volib-gysun-lupek-lokyc-kimib-somaf-cakig-ryxox",
+    "metadata": [
+      "keeex self xunin-koser-ryvem-pevyc-nypaf-falem-palyv-kabet-sarum-volib-gysun-lupek-lokyc-kimib-somaf-cakig-ryxox, {main} xeeek",
+      "keeex self 2YcSP8PwiJFJpoTuE4TrJ88VZCNR93bCkYWcpzm, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;dateStruct - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12469118|649f622c0c998d41f6b6151acef6266c21979f7114a51136eee043e1ba549d4f|2021-05-20T04:36:54.877Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HOqDq8bguER7W7KJEuWqbzNX4p+VogGCk37HAJAjJhUnbL0F8XmMBCpIJHI2y4JsZKa3dO863AeMF/3RS3CJLzs=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-20T04:36:55.881Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;68f901b7b5bc74cdec44f807848029f0521ed53d63c59fc121b4bf71cef18a56&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

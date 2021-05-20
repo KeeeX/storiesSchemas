@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xonev-hugym-tasam-fyreh-dukuc-hocum-neror-sovib-cokef-vohet-kylov-dykys-zohim-vedug-hapun-nodis-poxyx.json",
+  "type": "object",
+  "title": "Common Mixin",
+  "description": "abstract",
+  "required": [
+    "name",
+    "id"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    }
+  },
+  "kxdata": {
+    "idx": "xonev-hugym-tasam-fyreh-dukuc-hocum-neror-sovib-cokef-vohet-kylov-dykys-zohim-vedug-hapun-nodis-poxyx",
+    "metadata": [
+      "keeex self xonev-hugym-tasam-fyreh-dukuc-hocum-neror-sovib-cokef-vohet-kylov-dykys-zohim-vedug-hapun-nodis-poxyx, {main} xeeek",
+      "keeex self 1wnNz7LTL1n81DsMGGNFWDNAX4FwqiZzhdL4JXU, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;common.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12465936|44ce94d7cccb4d7c4d4006e474afcdea43907983e0aedf8ad530bc0ea0f2864d|2021-05-19T16:44:19.053Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;GyLvfiE3sFBxDfgTYKX4w+8VK7jk5tSaiLUs2zVSDlhj4bAFBwryVXLMFeKfCgg6BkZMUMfFRtdZFiq/UvNLTKg=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-19T16:45:16.776Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;c1b33f11a3ccb4d6c2975489eda384333d384a744bd1c865fe8af46b54fdd172&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

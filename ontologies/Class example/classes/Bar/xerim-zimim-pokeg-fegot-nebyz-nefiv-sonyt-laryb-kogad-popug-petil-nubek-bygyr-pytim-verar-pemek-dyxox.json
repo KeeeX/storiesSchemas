@@ -1,0 +1,48 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "static.keeex.me/xerim-zimim-pokeg-fegot-nebyz-nefiv-sonyt-laryb-kogad-popug-petil-nubek-bygyr-pytim-verar-pemek-dyxox.json",
+  "type": "object",
+  "title": "Bar (Class)",
+  "description": "The Bar Class",
+  "required": [],
+  "additionalProperties": true,
+  "allOf": [
+    {
+      "classRelation": "is-a",
+      "target": "Base",
+      "$ref": "static.keeex.me/xufev-polan-robib-revyb-colig-bivyr-dyniv-mikom-zufil-balag-lyhib-fuvok-seruz-hezal-medyt-syluv-sixix.json"
+    },
+    {
+      "classRelation": "mixin",
+      "target": "Common",
+      "$ref": "static.keeex.me/xonev-hugym-tasam-fyreh-dukuc-hocum-neror-sovib-cokef-vohet-kylov-dykys-zohim-vedug-hapun-nodis-poxyx.json"
+    }
+  ],
+  "properties": {
+    "foo": {
+      "classRelation": "has-a",
+      "target": "Foo",
+      "$ref": "static.keeex.me/xoboc-kogem-nikid-nicug-gamoh-lenal-caloc-gudas-hiroh-zyzop-hurip-pegan-vecid-vepyl-lugeb-duzyd-soxex.json"
+    },
+    "date": {
+      "target": "DateStruct",
+      "$ref": "static.keeex.me/xunin-koser-ryvem-pevyc-nypaf-falem-palyv-kabet-sarum-volib-gysun-lupek-lokyc-kimib-somaf-cakig-ryxox.json"
+    }
+  },
+  "kxdata": {
+    "idx": "xerim-zimim-pokeg-fegot-nebyz-nefiv-sonyt-laryb-kogad-popug-petil-nubek-bygyr-pytim-verar-pemek-dyxox",
+    "metadata": [
+      "keeex self xerim-zimim-pokeg-fegot-nebyz-nefiv-sonyt-laryb-kogad-popug-petil-nubek-bygyr-pytim-verar-pemek-dyxox, {main} xeeek",
+      "keeex self 2eERxk2sC73J7VpiSc3LPmj6fia8X3jXqkAB63a, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;newbar3.json&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12469305|8b0b424da8a5f121b3fe23788d5bb0d5547f1ae58e10b198854b9a3e624b5f28|2021-05-20T05:17:51.638Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G6O2i9yaAkJfVptvfmgpUmO8p/7D11Gv4jtZEdy/5Y8WVCeI65A+VLVV1w9yeIkOuxdoahUgUukLkcl2RHcsPv8=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-20T05:18:07.080Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;38456c96a2f43709fe9fd07782394bcff80ef8fcb4aefa1bee6bb0a26c82431d&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}
