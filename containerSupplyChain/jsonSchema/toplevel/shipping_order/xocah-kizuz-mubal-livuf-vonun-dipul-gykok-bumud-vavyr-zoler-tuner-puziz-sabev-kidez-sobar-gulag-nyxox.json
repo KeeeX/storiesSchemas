@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xocah-kizuz-mubal-livuf-vonun-dipul-gykok-bumud-vavyr-zoler-tuner-puziz-sabev-kidez-sobar-gulag-nyxox.json",
+  "type": "object",
+  "title": "The shipping order file",
+  "required": [
+    "interchange",
+    "shippingOrder"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "https://static.keeex.me/xifiz-lereg-bebos-zisic-hesil-cafac-beryf-dyrar-dogib-nuluv-mopyb-gyviz-vokus-pityc-zoboc-lulip-gexex.json"
+    },
+    "shippingOrder": {
+      "$ref": "https://static.keeex.me/xurot-rivek-fyhot-gyfet-mevec-zubym-pepih-colos-ribyn-ralut-nebil-kezyg-horoh-tivib-heleh-hucic-suxux.json"
+    }
+  },
+  "kxdata": {
+    "idx": "xocah-kizuz-mubal-livuf-vonun-dipul-gykok-bumud-vavyr-zoler-tuner-puziz-sabev-kidez-sobar-gulag-nyxox",
+    "metadata": [
+      "keeex self xocah-kizuz-mubal-livuf-vonun-dipul-gykok-bumud-vavyr-zoler-tuner-puziz-sabev-kidez-sobar-gulag-nyxox, {main} xeeek",
+      "keeex self 2htRqfsrM2JwPCRjeWXp5XuMq6urXR5qGtUyEyx, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xuzaz-nyzil-vecir-lanuv-danif-vinub-zacuz-riveg-minig-lepod-syvab-hyvan-gynug-zozah-sufaz-gymad-kaxux - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12477730|9f9b1081f215e263c90b9ec7c7589d5733dfb97ebce3ec04136f6a59f24916d7|2021-05-21T12:38:30.885Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HHl35iGszflSlXUYhCpqLe5JpWmnp7mOQUZU5pHXJIKQ6VrNF/rFm7eTh1LktP7rjnT1PxK2Gu4ZJbXYIlUnGnI=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T12:38:31.344Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;1f2b6ebc83165d900592ba231a17988ba1e22240af7fb59ac394c2459e69f6bb&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

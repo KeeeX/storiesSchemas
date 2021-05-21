@@ -1,0 +1,36 @@
+{
+  "$id": "https://static.keeex.me/xisop-sesit-vytug-dekob-tidaz-civuf-renog-guruh-gymot-totuc-tacom-pymov-vefoz-mokev-bugom-sosyd-zyxex.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "properties": {
+    "booking": {
+      "$ref": "https://static.keeex.me/xenit-ganos-zikuk-tocig-nesal-ripiz-vepap-vapaf-nanyk-ruhym-zibad-fefaz-sotym-syloc-vovov-higos-mixax.json"
+    },
+    "interchange": {
+      "$ref": "https://static.keeex.me/xifiz-lereg-bebos-zisic-hesil-cafac-beryf-dyrar-dogib-nuluv-mopyb-gyviz-vokus-pityc-zoboc-lulip-gexex.json"
+    }
+  },
+  "required": [
+    "interchange",
+    "booking"
+  ],
+  "title": "The booking data",
+  "type": "object",
+  "kxdata": {
+    "idx": "xisop-sesit-vytug-dekob-tidaz-civuf-renog-guruh-gymot-totuc-tacom-pymov-vefoz-mokev-bugom-sosyd-zyxex",
+    "metadata": [
+      "keeex self xisop-sesit-vytug-dekob-tidaz-civuf-renog-guruh-gymot-totuc-tacom-pymov-vefoz-mokev-bugom-sosyd-zyxex, {main} xeeek",
+      "keeex self 253siowPvCknFtrU9pVQryD1kNbPGnBPijwgBiL, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xutel-veruc-kigip-lypob-vuhem-firim-zyreg-sifan-havec-kunir-disun-hypif-sevys-pyfyp-gidil-pafoh-cixex - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12477696|4fe80c53d5d5625137a4bff8d4ea3d149f5b3919cacbb56813c3797bb3fa9f17|2021-05-21T12:30:55.209Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G12ndYYjTdEy/vh2jmPDN7eX86zHaLVt/GX080BwVFQZuDL/3Ij9Yv3v7WxG5NPovv2GiQuUHb6yxZmrfh3Cxfo=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T12:31:17.149Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;4517f448003461830d7f498eb45d6cc094bd146d88b076071ba34442e145c0f1&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}
