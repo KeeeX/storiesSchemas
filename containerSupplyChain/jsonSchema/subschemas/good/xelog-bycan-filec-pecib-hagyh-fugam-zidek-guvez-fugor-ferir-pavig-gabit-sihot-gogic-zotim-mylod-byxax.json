@@ -1,0 +1,52 @@
+{
+   "$comment" : "",
+   "$id" : "https://static.keeex.me/xelog-bycan-filec-pecib-hagyh-fugam-zidek-guvez-fugor-ferir-pavig-gabit-sihot-gogic-zotim-mylod-byxax.json",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "additionalProperties" : true,
+   "description" : "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",,
+   "properties" : {
+      "blId" : {
+         "description" : "The bill of lading id",
+         "type" : "integer"
+      },
+      "description" : {
+         "description" : "The description",
+         "type" : "string"
+      },
+      "grossWeight" : {
+         "description" : "The gross weight",
+         "type" : "integer"
+      },
+      "id" : {
+         "description" : "The good id",
+         "type" : "integer"
+      },
+      "packageTypeCode" : {
+         "description" : "The code of package type",
+         "type" : "string"
+      },
+      "quantity" : {
+         "description" : "The quantity",
+         "type" : "integer"
+      },
+      "version" : {
+         "description" : "The version",
+         "type" : "integer"
+      }
+   },
+   "required" : [],
+   "title" : "Subschema for Good",
+   "type" : "object"
+}
+
+keeex self xelog-bycan-filec-pecib-hagyh-fugam-zidek-guvez-fugor-ferir-pavig-gabit-sihot-gogic-zotim-mylod-byxax, {main} xeeek
+keeex self 2wJt9nxQTNVrY6BiBkepX5q9kCPpW2FtggNumcV, {alg:sha224,enc:b58,recursive:1} xeeek
+keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek
+keeex prop "kx.licence", "Protected by KeeeX using KaaaS" xeeek
+keeex name "xolor-nemob-lanuk-gysol-gehyr-nasav-curuc-colur-vetyb-tabol-vinyf-ficok-vihab-nizam-hogub-cutyl-myxix - copie.txt", {main} xeeek
+keeex prop "kx.description", "" xeeek
+keeex prop "kx.author", "rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur" xeeek
+keeex prop "afterBC", "BC|ETH.main|12476847|61e8858c4463621528b9cb1f5491e27aa98965eb472b9cc5376b4a8ec30b38cb|2021-05-21T09:17:34.219Z" xeeek
+keeex signature "1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn", "G/X8rEc4xnWRWgTurh43gL4BSVrWRIz+m5MSGg07zYt2qzqLuhw8XDXvniGoY9lbOYm3DurddyPdUhz4OZz84Aw=", {bitcoin} xeeek
+keeex prop "kx.time", "2021-05-21T09:17:37.467Z" xeeek
+keeex prop "kx.originHash", "7b7d5b75cc0e624967be98de30526e3170cb326a84f7cc08ac8b7ed323a1ad08", {alg:sha256} xeeek

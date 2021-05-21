@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xurag-nosas-zanym-cunem-danip-zilov-bepab-mifev-ryger-nucyc-keter-pyzud-gedyn-zodur-supit-miten-doxex.json",
+  "type": "object",
+  "title": "The discharge list item",
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "required": [
+    "cargos"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "cargos": {
+      "type": "array",
+      "description": "The list of cargos",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "https://static.keeex.me/xopon-lalov-hihog-lorav-bimur-milit-kuzit-fenaf-zybik-cydal-ferar-bivad-zypog-kahuk-foryv-rabuc-guxax.json"
+          },
+          {
+            "required": [
+              "reference"
+            ]
+          }
+        ]
+      }
+    },
+    "carriageIdentification": {
+      "type": "string",
+      "description": "The carriage identification"
+    },
+    "carriageReference": {
+      "type": "string",
+      "description": "The carriage reference"
+    },
+    "eta": {
+      "type": "string",
+      "description": "The estimated time of arrival"
+    },
+    "etd": {
+      "type": "string",
+      "description": "The estimated time of delivery"
+    },
+    "inlandTransportStatus": {
+      "type": "string",
+      "description": "The inland transport status"
+    },
+    "inlandCarrierTraderCode": {
+      "type": "string",
+      "description": "The inland carrier trader code"
+    },
+    "portOfDischargeCode": {
+      "type": "string",
+      "description": "The port of discharge code"
+    },
+    "portOfLoadingCode": {
+      "type": "string",
+      "description": "The port of loading code"
+    },
+    "terminalCode": {
+      "type": "string",
+      "description": "The terminal code"
+    },
+    "transportMode": {
+      "type": "string",
+      "description": "The transport mode"
+    }
+  },
+  "kxdata": {
+    "idx": "xurag-nosas-zanym-cunem-danip-zilov-bepab-mifev-ryger-nucyc-keter-pyzud-gedyn-zodur-supit-miten-doxex",
+    "metadata": [
+      "keeex self xurag-nosas-zanym-cunem-danip-zilov-bepab-mifev-ryger-nucyc-keter-pyzud-gedyn-zodur-supit-miten-doxex, {main} xeeek",
+      "keeex self 1Aj4NyvKf3AGZ4fJoenzNkeXuGPucidpx6QiMAL, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xepit-hycub-volub-kyvom-bahup-hariv-mever-vagyf-duzup-milot-fyzyg-gyguv-tehoc-dupih-kysez-vyhyg-kexax - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12477517|ecb849b874840370445bd639d7fb6cce9239c42db92eb1d4a2756e289540d53f|2021-05-21T11:49:54.456Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HCZ3Ij9wdP2kmo6qIoTxCEIC0fA2vVJhYeJEqeh7/uDgmA578PBojUtDJ2USevfejtR5q633naZ6rV5VRjcyqZQ=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T11:50:09.634Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;279abb502d9fb59f44e2a8a09ad6395911d081f00032a37e1e5220721c6f3fb5&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

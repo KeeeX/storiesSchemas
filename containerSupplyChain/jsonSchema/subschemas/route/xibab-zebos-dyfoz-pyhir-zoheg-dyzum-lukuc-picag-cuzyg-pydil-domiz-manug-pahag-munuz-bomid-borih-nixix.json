@@ -1,0 +1,75 @@
+{
+  "$id": "https://static.keeex.me/xibab-zebos-dyfoz-pyhir-zoheg-dyzum-lukuc-picag-cuzyg-pydil-domiz-manug-pahag-munuz-bomid-borih-nixix.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "properties": {
+    "callNumber": {
+      "description": "The call number",
+      "type": "string"
+    },
+    "eta": {
+      "description": "The estimated time of arrival",
+      "type": "string"
+    },
+    "etd": {
+      "description": "The estimated time of delivery",
+      "type": "string"
+    },
+    "id": {
+      "description": "The id",
+      "type": "integer"
+    },
+    "newVoyage": {
+      "description": "New voyage",
+      "type": "boolean"
+    },
+    "portOfDestination": {
+      "description": "The port of destination",
+      "type": "string"
+    },
+    "portOfLoading": {
+      "description": "The port of loading",
+      "type": "string"
+    },
+    "portOfOrigin": {
+      "description": "The port of origin",
+      "type": "string"
+    },
+    "preCallNumber": {
+      "description": "The precall number",
+      "type": "string"
+    },
+    "vessel": {
+      "description": "The vessel",
+      "type": "string"
+    },
+    "vesselName": {
+      "description": "The vessel name",
+      "type": "string"
+    },
+    "voyageNumber": {
+      "description": "The voyage number",
+      "type": "string"
+    }
+  },
+  "required": [],
+  "title": "The route item",
+  "type": "object",
+  "kxdata": {
+    "idx": "xibab-zebos-dyfoz-pyhir-zoheg-dyzum-lukuc-picag-cuzyg-pydil-domiz-manug-pahag-munuz-bomid-borih-nixix",
+    "metadata": [
+      "keeex self xibab-zebos-dyfoz-pyhir-zoheg-dyzum-lukuc-picag-cuzyg-pydil-domiz-manug-pahag-munuz-bomid-borih-nixix, {main} xeeek",
+      "keeex self 224MYULPd4xTcK7tt2BGzqMT5mfwjkRpVrUWWK3, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xepil-tybal-tuvub-zorub-hykec-cusim-sagoc-merob-murin-lehod-zateb-sysyh-myrak-remup-gagyz-zetos-bexex - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12476876|ade7910229aaed1703168414f474b5493f37e21257d8bed4517b5d33163d1932|2021-05-21T09:22:57.056Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HInQJQEnQHfmin0nQufAMy1jwmEiu7iMqqd06XsWv1GUvAHddnsMAR2A9sq/ECIU8LWsJaFuCxcDOzH5r5+54oU=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T09:23:33.170Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;ec3b2cd5b0d7a3cc400734dfd082899dcaa62548f2c990e7cb5a215639aae1e1&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

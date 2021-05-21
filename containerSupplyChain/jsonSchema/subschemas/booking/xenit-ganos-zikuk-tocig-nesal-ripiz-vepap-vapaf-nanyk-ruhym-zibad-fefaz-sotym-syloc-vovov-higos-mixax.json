@@ -1,0 +1,125 @@
+{
+  "$id": "https://static.keeex.me/xenit-ganos-zikuk-tocig-nesal-ripiz-vepap-vapaf-nanyk-ruhym-zibad-fefaz-sotym-syloc-vovov-higos-mixax.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "properties": {
+    "agentTraderCode": {
+      "description": "The agent trader code",
+      "type": "string"
+    },
+    "cargos": {
+      "description": "The list of cargos",
+      "items": {
+        "$ref": "https://static.keeex.me/xopon-lalov-hihog-lorav-bimur-milit-kuzit-fenaf-zybik-cydal-ferar-bivad-zypog-kahuk-foryv-rabuc-guxax.json"
+      },
+      "type": "array"
+    },
+    "createdBy": {
+      "description": "Created by",
+      "type": "string"
+    },
+    "createdCommunity": {
+      "description": "The created community",
+      "type": "string"
+    },
+    "createdDate": {
+      "description": "The created date",
+      "type": "string"
+    },
+    "createdOrganization": {
+      "description": "The created organization",
+      "type": "string"
+    },
+    "deletedDate": {
+      "description": "The deleted date",
+      "type": "string"
+    },
+    "folderId": {
+      "description": "The folder Id",
+      "type": "integer"
+    },
+    "freightForwarderCode": {
+      "description": "The freight forwarder code",
+      "type": "string"
+    },
+    "freightForwarderReference": {
+      "description": "The freight forwarder reference",
+      "type": "string"
+    },
+    "id": {
+      "description": "The id",
+      "type": "integer"
+    },
+    "lastModifiedBy": {
+      "description": "The last modified by",
+      "type": "string"
+    },
+    "lastModifiedCommunity": {
+      "description": "The last modified community",
+      "type": "string"
+    },
+    "lastModifiedDate": {
+      "description": "The last modified date",
+      "type": "string"
+    },
+    "lastModifiedOrganization": {
+      "description": "The last modified organization",
+      "type": "string"
+    },
+    "location": {
+      "description": "The location",
+      "type": "string"
+    },
+    "publishedDate": {
+      "description": "The published date",
+      "type": "string"
+    },
+    "reference": {
+      "description": "The reference",
+      "type": "string"
+    },
+    "route": {
+      "$ref": "https://static.keeex.me/xibab-zebos-dyfoz-pyhir-zoheg-dyzum-lukuc-picag-cuzyg-pydil-domiz-manug-pahag-munuz-bomid-borih-nixix.json"
+    },
+    "status": {
+      "description": "The status",
+      "type": "string"
+    },
+    "terminalLocation": {
+      "description": "The terminal location",
+      "type": "string"
+    },
+    "type": {
+      "description": "The type",
+      "type": "string"
+    },
+    "version": {
+      "description": "The version number",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "cargos",
+    "reference",
+    "type"
+  ],
+  "title": "The booking item",
+  "type": "object",
+  "kxdata": {
+    "idx": "xenit-ganos-zikuk-tocig-nesal-ripiz-vepap-vapaf-nanyk-ruhym-zibad-fefaz-sotym-syloc-vovov-higos-mixax",
+    "metadata": [
+      "keeex self xenit-ganos-zikuk-tocig-nesal-ripiz-vepap-vapaf-nanyk-ruhym-zibad-fefaz-sotym-syloc-vovov-higos-mixax, {main} xeeek",
+      "keeex self 1Nau8uHSmUvniTmKncuMAa3kbQxexxzivpzyTJX, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xecim-somot-rufym-ferig-suzin-vypov-buhof-kerum-fucon-dokik-fuvih-dahif-mulub-fygot-lirib-fubol-noxax - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12476913|514534aa734e8604c4dfbeffb05f06df37b0486d42cff55ecdd164d4ae548b25|2021-05-21T09:31:29.636Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HA834bSniNgfKIzEvicHqFjwj/HjN2WWRE20xQm5utXO8BEhwTiKH8DKdpRfEdkFOwH65D7OrNhBh4Z4o69wyR4=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T09:31:45.954Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;25c79e41ce7e43ceedb7e4f1a1368499461924db3022408630bc2d0a47c4771b&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

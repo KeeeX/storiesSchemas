@@ -1,0 +1,206 @@
+{
+  "$id": "https://static.keeex.me/xopon-lalov-hihog-lorav-bimur-milit-kuzit-fenaf-zybik-cydal-ferar-bivad-zypog-kahuk-foryv-rabuc-guxax.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "properties": {
+    "arrivalConfirmationDate": {
+      "description": "The arrival confirmation date",
+      "type": "string"
+    },
+    "blIds": {
+      "description": "The list of ids of bill of ladings",
+      "items": {},
+      "type": "array"
+    },
+    "bookingReference": {
+      "description": "The booking reference",
+      "type": "string"
+    },
+    "cargoMeasurements": {
+      "description": "The cargo measurements",
+      "type": "array"
+    },
+    "cargoSeals": {
+      "items": {},
+      "type": "array"
+    },
+    "createdBy": {
+      "description": "Created by",
+      "type": "string"
+    },
+    "createdCommunity": {
+      "description": "Created community",
+      "type": "string"
+    },
+    "createdDate": {
+      "description": "The created date",
+      "type": "string"
+    },
+    "createdOrganization": {
+      "description": "Created organization",
+      "type": "string"
+    },
+    "dangerous": {
+      "description": "The list of dangerous",
+      "items": {
+        "$ref": "https://static.keeex.me/xokal-pygih-hiloz-hivub-romyt-kehuz-recyl-vadud-zyrek-lityk-ninob-levys-varek-ribyc-nudil-pihir-naxux.json"
+      },
+      "type": "array"
+    },
+    "description": {
+      "description": "The description",
+      "type": "string"
+    },
+    "domesticIndicator": {
+      "description": "Domestic indicator",
+      "type": "boolean"
+    },
+    "empty": {
+      "description": "Empty",
+      "type": "boolean"
+    },
+    "fumigation": {
+      "description": "The fumigation",
+      "type": "object"
+    },
+    "goodItems": {
+      "description": "The list of good items",
+      "items": {
+        "$ref": "https://static.keeex.me/xelog-bycan-filec-pecib-hagyh-fugam-zidek-guvez-fugor-ferir-pavig-gabit-sihot-gogic-zotim-mylod-byxax.json"
+      },
+      "type": "array"
+    },
+    "goodsDescription": {
+      "description": "The goods description",
+      "type": "string"
+    },
+    "ics": {
+      "description": "The ics",
+      "type": "object"
+    },
+    "id": {
+      "description": "The Id",
+      "type": "integer"
+    },
+    "inlandCarrierReference": {
+      "description": "The inland carrier reference",
+      "type": "string"
+    },
+    "lastModifiedBy": {
+      "description": "Last modified by",
+      "type": "string"
+    },
+    "lastModifiedCommunity": {
+      "description": "Last modified community",
+      "type": "string"
+    },
+    "lastModifiedDate": {
+      "description": "The lastmodified date",
+      "type": "string"
+    },
+    "lastModifiedOrganization": {
+      "description": "Last modified organization",
+      "type": "string"
+    },
+    "measurement": {
+      "description": "The list of measurements",
+      "type": "array"
+    },
+    "netWeight": {
+      "description": "The net weight",
+      "type": "integer"
+    },
+    "nonOperatedReefer": {
+      "description": "Non operated reefer",
+      "type": "boolean"
+    },
+    "oversize": {
+      "description": "The oversize object",
+      "type": "object"
+    },
+    "packageCount": {
+      "description": "The package count",
+      "type": "integer"
+    },
+    "packageTypeCode": {
+      "description": "The package type code",
+      "type": "string"
+    },
+    "preArrivalNotification": {
+      "description": "Pre arrival notification",
+      "type": "boolean"
+    },
+    "rank": {
+      "description": "The rank number",
+      "type": "integer"
+    },
+    "reefer": {
+      "description": "The reefer",
+      "type": "object"
+    },
+    "reference": {
+      "description": "The reference",
+      "type": "string"
+    },
+    "seal": {
+      "description": "The list of seals",
+      "type": "array"
+    },
+    "seqNumber": {
+      "description": "The sequence number",
+      "type": "integer"
+    },
+    "shipperOwned": {
+      "description": "Shipper owned",
+      "type": "boolean"
+    },
+    "shippingOrderId": {
+      "description": "The shipping order id",
+      "type": "integer"
+    },
+    "status": {
+      "description": "The status",
+      "type": "string"
+    },
+    "tare": {
+      "description": "The tare",
+      "type": "integer"
+    },
+    "terminalCode": {
+      "description": "The terminal code",
+      "type": "string"
+    },
+    "type": {
+      "description": "The type",
+      "type": "string"
+    },
+    "version": {
+      "description": "The version number",
+      "type": "integer"
+    },
+    "vgms": {
+      "description": "The list of vgms",
+      "type": "array"
+    }
+  },
+  "required": [],
+  "title": "The cargo item",
+  "type": "object",
+  "kxdata": {
+    "idx": "xopon-lalov-hihog-lorav-bimur-milit-kuzit-fenaf-zybik-cydal-ferar-bivad-zypog-kahuk-foryv-rabuc-guxax",
+    "metadata": [
+      "keeex self xopon-lalov-hihog-lorav-bimur-milit-kuzit-fenaf-zybik-cydal-ferar-bivad-zypog-kahuk-foryv-rabuc-guxax, {main} xeeek",
+      "keeex self 32aDw49mXjiLkRd5BqCde5gETGMWM6NM9zNfyiF, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xisil-pudyn-kogul-kysyv-semol-toviz-vusyl-rucun-rizen-hytuf-fepup-beful-caboz-tyled-pucav-difec-pixyx - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12476888|23f3bd94e7dd1a1fdd65f32af958ee30ef54d69de46eac9ee972e174f8a24ef7|2021-05-21T09:26:46.381Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G7h3nvGopvG0n/E6+tpSoZLPhqw5jG00ivg4F2xm3etC7hhNb2xz30MVaKL3Cg69VCl84zMoe1iob61J4Y9SnZk=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T09:26:55.758Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;ab66a58798aa420fafe9e4dcd9dd8c9d6e2f674d0a4658167464c7d16effa5f4&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

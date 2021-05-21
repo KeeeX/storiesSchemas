@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xurot-rivek-fyhot-gyfet-mevec-zubym-pepih-colos-ribyn-ralut-nebil-kezyg-horoh-tivib-heleh-hucic-suxux.json",
+  "type": "object",
+  "title": "The shipping order item",
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "required": [
+    "announcementReferences",
+    "shippingOrderReference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "announcementReferences": {
+      "type": "array",
+      "description": "The list of announcement references",
+      "items": {
+        "$ref": "https://static.keeex.me/xipet-vuseh-zynal-tapam-zohuh-lonit-tytan-rutib-dakam-gemuf-kepep-tofeg-sebyh-cufot-dyzyc-sypir-hixox.json"
+      }
+    },
+    "shippingOrderReference": {
+      "type": "string",
+      "description": "The shipping order reference"
+    },
+    "autoRelease": {
+      "type": "string",
+      "description": "The auto release"
+    },
+    "numberOfDeclaration": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "The number of declaration"
+    },
+    "shippingOrderUserReference": {
+      "type": "string",
+      "description": "The shipping order user reference"
+    },
+    "traders": {
+      "type": "array",
+      "description": "The list of traders",
+      "items": {
+        "$ref": "./trader.json"
+      }
+    }
+  },
+  "kxdata": {
+    "idx": "xurot-rivek-fyhot-gyfet-mevec-zubym-pepih-colos-ribyn-ralut-nebil-kezyg-horoh-tivib-heleh-hucic-suxux",
+    "metadata": [
+      "keeex self xurot-rivek-fyhot-gyfet-mevec-zubym-pepih-colos-ribyn-ralut-nebil-kezyg-horoh-tivib-heleh-hucic-suxux, {main} xeeek",
+      "keeex self 2hZRy5D4HNXMsUPUDcjCXQWKrEz4BvrrzpTCNAn, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xunis-sokyg-pigyb-papot-bosab-razib-macig-tuleg-husyv-sikor-vyfos-pamam-negod-gitak-ducuh-gedig-guxex - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12476960|f76db0d615f404dd85d441c5a2068fd9d504740e0adca3a6aa743ebc14cf7671|2021-05-21T09:41:45.413Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HKkutjQppWMF8qwMz9eS6Z6w1Js+Wb/OOfyEYNGrTUSKjos9LlbteB7c7L4LlEWwrDyVocFSux/vANowIa1Gb2Q=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T09:42:03.920Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;115177020f1551ebf8c640cab8d0f7b58cf7f3aeda63d9ac08c94fca74166b68&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

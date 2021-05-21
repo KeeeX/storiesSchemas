@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xusen-rakot-haper-vunof-hogel-dicir-vobav-lanus-dihef-cobiz-sosef-tuvin-zefap-vehap-zikyt-goset-kixex.json",
+  "type": "object",
+  "title": "The declaration item",
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "required": [],
+  "additionalProperties": true,
+  "properties": {
+    "customsAgentTraderCode": {
+      "type": "string"
+    },
+    "customsAgentTraderLabel": {
+      "type": "string"
+    },
+    "customsAgentReference": {
+      "type": "string"
+    },
+    "customsOfficeCode": {
+      "type": "string"
+    },
+    "customsOfficeLabel": {
+      "type": "string"
+    },
+    "declarationId": {
+      "type": "string"
+    },
+    "declarationType": {
+      "type": "string"
+    },
+    "packageNumber": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "integer"
+    }
+  },
+  "kxdata": {
+    "idx": "xusen-rakot-haper-vunof-hogel-dicir-vobav-lanus-dihef-cobiz-sosef-tuvin-zefap-vehap-zikyt-goset-kixex",
+    "metadata": [
+      "keeex self xusen-rakot-haper-vunof-hogel-dicir-vobav-lanus-dihef-cobiz-sosef-tuvin-zefap-vehap-zikyt-goset-kixex, {main} xeeek",
+      "keeex self 3Bgs6gtpDVZJo8HWSg7NTDHfqCJVr84gsEWbPWQ, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xovov-tafis-cofik-rymom-mihur-kedoh-zomiv-cigum-patyv-pagon-nukop-magup-zogaz-zotiz-gibir-rysef-roxix - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12477014|7317aecc9c6c7f7efcc8fbfc901836691dde5fbc5bd73addcbb3d384f423b09c|2021-05-21T09:54:02.705Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G1Er+Tw2gU3h+E9RoimSUc/R1WnvXdkwXcVOGYzAuHQKlR3kidbjtbxY43+5OXmg/pr6zGnmlnT9x1qvfXvfsC8=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T09:54:07.720Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;1dfe0f74cd1cd91fecac7b60708e1048e390e30baf58e06225733bbb2ddb153e&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

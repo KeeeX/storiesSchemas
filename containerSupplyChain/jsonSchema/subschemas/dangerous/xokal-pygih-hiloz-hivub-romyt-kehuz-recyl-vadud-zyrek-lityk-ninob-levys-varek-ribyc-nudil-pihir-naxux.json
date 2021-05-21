@@ -1,0 +1,57 @@
+{
+  "$id": "https://static.keeex.me/xokal-pygih-hiloz-hivub-romyt-kehuz-recyl-vadud-zyrek-lityk-ninob-levys-varek-ribyc-nudil-pihir-naxux.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": true,
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's idx by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "properties": {
+    "class": {
+      "type": "string"
+    },
+    "expectedQuantity": {
+      "type": "integer"
+    },
+    "id": {
+      "type": "integer"
+    },
+    "limitedQuantity": {
+      "type": "integer"
+    },
+    "marinePollutant": {
+      "type": "boolean"
+    },
+    "packageNbr": {
+      "type": "integer"
+    },
+    "packingGroup": {
+      "type": "string"
+    },
+    "un": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "weight": {
+      "type": "integer"
+    }
+  },
+  "required": [],
+  "title": "Subschema for dangerous items",
+  "type": "object",
+  "kxdata": {
+    "idx": "xokal-pygih-hiloz-hivub-romyt-kehuz-recyl-vadud-zyrek-lityk-ninob-levys-varek-ribyc-nudil-pihir-naxux",
+    "metadata": [
+      "keeex self xokal-pygih-hiloz-hivub-romyt-kehuz-recyl-vadud-zyrek-lityk-ninob-levys-varek-ribyc-nudil-pihir-naxux, {main} xeeek",
+      "keeex self 1VgTp1Pq3SkyzsLtP4e2hSYJadEYVDiGyWDSys5, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xiziz-posaf-fafob-hadig-menyn-gysad-gamyp-vyfot-tovim-ponik-cugal-pygef-sezam-kulof-bifek-fykor-loxox - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12476832|212392d9e32c7ae889e8ac041f5df4cc5474da882f9c84a1f852dd86976a845d|2021-05-21T09:14:43.181Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HB0Dpmav2kuxwKVCBA8T852evSf8SfzZBgkcNmVb7FQORXPYTHBE6maJINHmMTmhSLGqXFcajCbWmY7uLN89eJ4=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T09:14:44.406Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;6f99a8ad76c9afef9b19f1e6f7ea89e70ee311a49425124bec24a74394fc81c4&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

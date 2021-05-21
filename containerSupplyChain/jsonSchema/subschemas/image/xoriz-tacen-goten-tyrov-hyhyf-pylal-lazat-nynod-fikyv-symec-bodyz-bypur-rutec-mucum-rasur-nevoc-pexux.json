@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xoriz-tacen-goten-tyrov-hyhyf-pylal-lazat-nynod-fikyv-symec-bodyz-bypur-rutec-mucum-rasur-nevoc-pexux.json",
+  "type": "object",
+  "title": "The image item",
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "required": [
+    "bookingReference",
+    "reference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "reference": {
+      "type": "string",
+      "description": "The image reference"
+    },
+    "bookingReference": {
+      "type": "string",
+      "description": "The booking reference"
+    },
+    "imageType": {
+      "type": "string",
+      "description": "The image type"
+    },
+    "name": {
+      "type": "string",
+      "description": "The file name"
+    }
+  },
+  "kxdata": {
+    "idx": "xoriz-tacen-goten-tyrov-hyhyf-pylal-lazat-nynod-fikyv-symec-bodyz-bypur-rutec-mucum-rasur-nevoc-pexux",
+    "metadata": [
+      "keeex self xoriz-tacen-goten-tyrov-hyhyf-pylal-lazat-nynod-fikyv-symec-bodyz-bypur-rutec-mucum-rasur-nevoc-pexux, {main} xeeek",
+      "keeex self 18VMuC18gJtLu23eCApXuCFFTqEuZHZ8DhFtBnX, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xeher-lipoc-nopab-sokul-sokun-macor-timab-macev-gafyv-sudor-lipyc-favog-rinun-gecil-nofec-murih-cexux - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12477006|bbeca7c421f9d04afaba701b0bb68f8d1bf77c5506d00a3eb5bb2a55c37d92da|2021-05-21T09:51:56.792Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HEjlMd16EXYzLpVmaOLjo1VQLqK/Ap6eXwZQDpI0dl1JeNPVRL8gY6QbBIPMNCAd5EE6XXgoqkLJqeB3XIcvN04=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T09:51:59.493Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;a41328e19dbe283519e28a45c0d3f1950205f7a6dad749f50ede1b2d9707a622&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

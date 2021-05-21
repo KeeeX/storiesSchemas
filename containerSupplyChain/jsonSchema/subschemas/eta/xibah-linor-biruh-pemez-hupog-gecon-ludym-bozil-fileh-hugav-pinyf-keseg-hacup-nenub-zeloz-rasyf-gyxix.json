@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xibah-linor-biruh-pemez-hupog-gecon-ludym-bozil-fileh-hugav-pinyf-keseg-hacup-nenub-zeloz-rasyf-gyxix.json",
+  "type": "object",
+  "title": "The ETA item",
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "required": [
+    "bookingReference",
+    "containerNumber",
+    "eta"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "type": "string",
+      "description": "The booking reference"
+    },
+    "containerNumber": {
+      "type": "string",
+      "description": "The container number"
+    },
+    "eta": {
+      "type": "string",
+      "description": "The estimated time of arrival"
+    },
+    "name": {
+      "type": "string",
+      "description": "The file name"
+    },
+    "portOfDestination": {
+      "type": "string",
+      "description": "The port of destination"
+    }
+  },
+  "kxdata": {
+    "idx": "xibah-linor-biruh-pemez-hupog-gecon-ludym-bozil-fileh-hugav-pinyf-keseg-hacup-nenub-zeloz-rasyf-gyxix",
+    "metadata": [
+      "keeex self xibah-linor-biruh-pemez-hupog-gecon-ludym-bozil-fileh-hugav-pinyf-keseg-hacup-nenub-zeloz-rasyf-gyxix, {main} xeeek",
+      "keeex self 3SrmFnTxpNKNX7eBtd8cRMBowZR2jo3sAsX6jvh, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xegok-nucym-peleg-zevum-kysip-mopic-cirok-falav-digem-ponyh-zupem-nosak-fafut-gupeb-gofoh-ryheb-muxox - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12477498|7a611e10e02b26a7ab9f6784d928a49a261f86da72b4ec4a5826ac46784031ea|2021-05-21T11:45:48.125Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;G9+Bp8Y3RwEPEQGRqotoDoOv/qEOGF5Fo6phHkLL08kq028Oel4EJoEmfcj7uI8xeWXdpUlTbpdq6HQh5OT5m0M=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T11:45:52.975Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;72a166881b44bacf773d5d3490090fe4a30e96e5dc67c8e805a66142803be3c8&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}

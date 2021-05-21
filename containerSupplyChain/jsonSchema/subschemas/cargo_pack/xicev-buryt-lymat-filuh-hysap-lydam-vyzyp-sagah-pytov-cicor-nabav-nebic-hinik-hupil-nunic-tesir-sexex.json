@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xicev-buryt-lymat-filuh-hysap-lydam-vyzyp-sagah-pytov-cicor-nabav-nebic-hinik-hupil-nunic-tesir-sexex.json",
+  "type": "object",
+  "title": "The cargo pack item",
+  "description": "This JSON Schema definition is a keeexed file. It can be searched and retrieved from it's $id by file name or content then verified:</br>- verification at https://services.keeex.me/verify</br>- search on GitHub at https://github.com/search?l=&q=idxx&type=code</br>- meta search if available on keeex http://static.keeex.me/idx</br>- general search engines or open source repositories",
+  "required": [
+    "cargos",
+    "header"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cargos": {
+      "type": "array",
+      "title": "The list of cargos",
+      "items": {
+        "$ref": "https://static.keeex.me/xopon-lalov-hihog-lorav-bimur-milit-kuzit-fenaf-zybik-cydal-ferar-bivad-zypog-kahuk-foryv-rabuc-guxax.json"
+      }
+    },
+    "header": {
+      "$ref": "https://static.keeex.me/xocif-hebev-talyf-dydyn-vilop-nemig-fukan-lazac-nazaf-nafok-vikug-garag-mygob-gukim-fepem-zyzul-gexox.json"
+    },
+    "route": {
+      "$ref": "https://static.keeex.me/xibab-zebos-dyfoz-pyhir-zoheg-dyzum-lukuc-picag-cuzyg-pydil-domiz-manug-pahag-munuz-bomid-borih-nixix.json"
+    },
+    "traders": {
+      "type": "array",
+      "title": "The list of traders",
+      "items": {
+        "$ref": "https://static.keeex.me/xuliz-hymel-gytan-vupek-ligal-hacac-dulas-ratyc-pebys-bigib-vebog-syfyk-puhuk-ruryz-fesov-gyziv-mexex.json"
+      }
+    }
+  },
+  "kxdata": {
+    "idx": "xicev-buryt-lymat-filuh-hysap-lydam-vyzyp-sagah-pytov-cicor-nabav-nebic-hinik-hupil-nunic-tesir-sexex",
+    "metadata": [
+      "keeex self xicev-buryt-lymat-filuh-hysap-lydam-vyzyp-sagah-pytov-cicor-nabav-nebic-hinik-hupil-nunic-tesir-sexex, {main} xeeek",
+      "keeex self 2MaQL5WbUUem5Qq8J6Xcor3YM1gffG4i75vp8D4, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xosar-nobop-vised-kivev-palum-kynyc-givob-rykam-fyzap-necyh-dyzym-lyfuk-firic-hoter-fezec-gacup-faxex - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12477038|9a527846429d98bf8cb5b661cad06734ffe7521063ea9de1caed6e0ba3f6be6d|2021-05-21T09:59:55.984Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HFJ442IcnpyokL5ioCx/dKFaWjv6HjF7j2Tg7jYRbV3J2uNjuNSyjhfx5LKoxhrgK2Hm6rq4VrCB1UVTfTG/H8o=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T10:00:05.049Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;ed96384241eff7a34a430c87edc1b53e3710a13bb85df50ed27806b46728207a&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}
