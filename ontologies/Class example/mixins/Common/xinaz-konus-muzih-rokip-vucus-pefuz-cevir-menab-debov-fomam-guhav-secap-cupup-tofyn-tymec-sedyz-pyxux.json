@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xinaz-konus-muzih-rokip-vucus-pefuz-cevir-menab-debov-fomam-guhav-secap-cupup-tofyn-tymec-sedyz-pyxux.json",
+  "type": "object",
+  "title": "Common Mixin",
+  "description": "Abstract mixin describing fields name and id",
+  "required": [
+    "name",
+    "id"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "id": {
+      "type": "integer"
+    }
+  },
+  "kxdata": {
+    "idx": "xinaz-konus-muzih-rokip-vucus-pefuz-cevir-menab-debov-fomam-guhav-secap-cupup-tofyn-tymec-sedyz-pyxux",
+    "metadata": [
+      "keeex self xinaz-konus-muzih-rokip-vucus-pefuz-cevir-menab-debov-fomam-guhav-secap-cupup-tofyn-tymec-sedyz-pyxux, {main} xeeek",
+      "keeex self 3XSjeKU6DAftfUa1cH3EzY1kVkazdLV1ZQbeNZg, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xonev-hugym-tasam-fyreh-dukuc-hocum-neror-sovib-cokef-vohet-kylov-dykys-zohim-vedug-hapun-nodis-poxyx - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12476020|5972070fd226d72749f00e110854c1ebf5aabad20ed252d3d220c81b5c186c9c|2021-05-21T06:12:04.737Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;GxtZ4vjPccVR1BnTJStx6fojJbmUCMYiTD9WTvZtxMXJEzp0TnWLXcniOgBnjlOTFt4DQS+HDx/4zRXWxJXliN4=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T06:12:11.842Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;8eb0bf1689aa7d1a8300adbb96bd62359d268fb137c9501d49ca60ab5523e5de&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}
