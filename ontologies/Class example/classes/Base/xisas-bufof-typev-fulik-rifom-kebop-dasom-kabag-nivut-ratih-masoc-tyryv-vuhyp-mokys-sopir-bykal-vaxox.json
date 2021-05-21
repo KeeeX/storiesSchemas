@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://static.keeex.me/xisas-bufof-typev-fulik-rifom-kebop-dasom-kabag-nivut-ratih-masoc-tyryv-vuhyp-mokys-sopir-bykal-vaxox.json",
+  "type": "object",
+  "title": "Base Class",
+  "description": "Abstract base class in hierarchy",
+  "required": [],
+  "additionalProperties": true,
+  "properties": {},
+  "kxdata": {
+    "idx": "xisas-bufof-typev-fulik-rifom-kebop-dasom-kabag-nivut-ratih-masoc-tyryv-vuhyp-mokys-sopir-bykal-vaxox",
+    "metadata": [
+      "keeex self xisas-bufof-typev-fulik-rifom-kebop-dasom-kabag-nivut-ratih-masoc-tyryv-vuhyp-mokys-sopir-bykal-vaxox, {main} xeeek",
+      "keeex self 1uKFJsLxGxKJKNL61bhzDWsLyxrYVqWWeJv3Aty, {alg:sha224,enc:b58,recursive:1} xeeek",
+      "keeex ref rusig-lituf-fedel-gyhes-zutyf-tityb-fyzaf-gefok-fedut-garus-temom-mizyb-kezac-nyheb-dyvep-gylyh-zoxer, {licence} xeeek",
+      "keeex prop &quot;kx.licence&quot;, &quot;Protected by KeeeX using KaaaS&quot; xeeek",
+      "keeex name &quot;xufev-polan-robib-revyb-colig-bivyr-dyniv-mikom-zufil-balag-lyhib-fuvok-seruz-hezal-medyt-syluv-sixix - copie.txt&quot;, {main} xeeek",
+      "keeex prop &quot;kx.description&quot;, &quot;&quot; xeeek",
+      "keeex prop &quot;kx.author&quot;, &quot;rikoz-ducav-zasul-fibih-gahyb-popek-valel-dityp-ridib-horuf-dolak-pynog-cagiv-hucic-domil-videt-zexur&quot; xeeek",
+      "keeex prop &quot;afterBC&quot;, &quot;BC|ETH.main|12475971|bc77b1671b346e647f4b8ce376958efa5403790c3b3c5635615ab1f697e658a6|2021-05-21T06:00:39.108Z&quot; xeeek",
+      "keeex signature &quot;1NkZmqDcTKmAWJaJM957HJo84CFHe5JXZn&quot;, &quot;HLpsgDsJuJPKsjBPn5mwoqowz3BrqRxkCezFV3PFv9QYXrMSwiOB20u46MKwoRXQdSUIjkUllrnC6LFInUQJD+A=&quot;, {bitcoin} xeeek",
+      "keeex prop &quot;kx.time&quot;, &quot;2021-05-21T06:00:39.441Z&quot; xeeek",
+      "keeex prop &quot;kx.originHash&quot;, &quot;5626db4150277c208f212664068b1b72300f26e4d85731ec9e722b04bbe30833&quot;, {alg:sha256} xeeek"
+    ]
+  }
+}
