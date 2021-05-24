@@ -1,0 +1,45 @@
+{
+   "$id" : "https://static.keeex.me/xesop-dumal-syles-tesos-loriz-lidiv-loceb-monyr-cafym-mecim-pupok-mapyl-zoror-degar-dobyv-hatad-goxyx.json",
+   "$schema" : "http://json-schema.org/draft-07/schema#",
+   "kxdata" : {
+      "idx" : "xesop-dumal-syles-tesos-loriz-lidiv-loceb-monyr-cafym-mecim-pupok-mapyl-zoror-degar-dobyv-hatad-goxyx",
+      "metadata" : [
+         "keeex self xesop-dumal-syles-tesos-loriz-lidiv-loceb-monyr-cafym-mecim-pupok-mapyl-zoror-degar-dobyv-hatad-goxyx , {main} xeeek",
+         "keeex self 3JxAubCukgzjxs86bbZebG9FLwAFfL2UVpLuHWn , {alg:sha224,enc:b58,recursive:1} xeeek",
+         "keeex name &quot;person.kxjson&quot; , {main} xeeek",
+         "keeex prop &quot;kx.author&quot;, &quot;redat-kekuh-cemez-cisyt-mynyt-movag-dihaf-fopov-bimim-himuz-damoc-kemyh-fisof-hubir-semis-satig-dyxyr&quot; xeeek",
+         "keeex ref &quot;rogog-conas-ryzez-kuguv-pupec-vogos-dotiz-zafoz-lutyn-femim-tefig-vaset-hymyr-lemuc-kadyb-vizic-syxar&quot; , {mine} xeeek",
+         "keeex signer rerom-cityz-bivyc-ralav-bumon-mudyh-hocyr-pikyv-sysyz-cunat-gesiz-lipig-cozof-harif-sapor-gacaf-nixer xeeek",
+         "keeex prop &quot;kx.time&quot;, &quot;Mon, 24 May 2021 09:59:44 GMT&quot; xeeek",
+         "keeex prop &quot;kx.pattern&quot;, &quot;%f_kx_$1-$2&quot; xeeek",
+         "keeex prop &quot;kx.publickey&quot;, &quot;1EPvJdUDpZNELvbBc2DeowG2J2ZnFZbNCy&quot;, {bitcoin} xeeek",
+         "keeex protected &quot;HKCKzaQV0cdyBnh9pqhDuMzJNfL221iO0uZ2P9CLVnf1IWRhpdrVJI3tv1XnfSv0xcs4PMd9!9qGDoWTPaHia0o=&quot; , {bitcoin} xeeek",
+         "keeex prop &quot;kx.folder&quot;, &quot;schemas&quot; xeeek",
+         "keeex ref &quot;roniz-hofem-suryz-mobat-nakaz-kabop-ribip-zadec-hicih-vigep-recif-vigin-hopur-mudug-lipon-zadih-maxur&quot; xeeek",
+         "keeex ref &quot;rebos-kutik-rudul-zirig-cihoh-gyzum-decav-gonot-tonib-pupeb-fumup-bapyr-kamyk-malud-fykil-pumic-tixor&quot; xeeek"
+      ]
+   },
+   "properties" : {
+      "address" : {
+         "description" : "Residence address",
+         "title" : "Address",
+         "type" : "string"
+      },
+      "age" : {
+         "description" : "Person age",
+         "title" : "Age",
+         "type" : "integer"
+      },
+      "name" : {
+         "description" : "Person name",
+         "title" : "Name",
+         "type" : "string"
+      }
+   },
+   "required" : [
+      "name",
+      "age"
+   ],
+   "title" : "Person",
+   "type" : "object"
+}
